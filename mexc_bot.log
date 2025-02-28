@@ -1,0 +1,1029 @@
+2025-02-25 13:26:06,270 - MEXC-TradingBot - INFO - מאתחל בוט מסחר MEXC במצב בדיקה
+2025-02-25 13:26:06,270 - MEXC-TradingBot - INFO - מתחיל להריץ את בוט המסחר...
+2025-02-25 13:26:07,490 - MEXC-TradingBot - INFO - בודק סימבול: STARDUSDT
+2025-02-25 13:26:08,402 - MEXC-TradingBot - ERROR - שגיאה לא צפויה: 12 columns passed, passed data had 8 columns
+2025-02-25 13:30:10,138 - MEXC-TradingBot - INFO - מאתחל בוט מסחר MEXC במצב בדיקה
+2025-02-25 13:30:10,139 - MEXC-TradingBot - INFO - מתחיל להריץ את בוט המסחר...
+2025-02-25 13:30:11,941 - MEXC-TradingBot - INFO - בודק סימבול: STARDUSDT
+2025-02-25 13:30:12,917 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור STARDUSDT
+2025-02-25 13:30:12,932 - MEXC-TradingBot - ERROR - שגיאה בעיבוד נתוני Klines: Integer out of range. at position 19
+2025-02-25 13:30:12,933 - MEXC-TradingBot - WARNING - לא מספיק נתונים עבור STARDUSDT, מדלג
+2025-02-25 13:30:12,933 - MEXC-TradingBot - INFO - בודק סימבול: LEOTUSDT
+2025-02-25 13:30:13,480 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור LEOTUSDT
+2025-02-25 13:30:13,483 - MEXC-TradingBot - ERROR - שגיאה בעיבוד נתוני Klines: Integer out of range. at position 40
+2025-02-25 13:30:13,484 - MEXC-TradingBot - WARNING - לא מספיק נתונים עבור LEOTUSDT, מדלג
+2025-02-25 13:30:13,484 - MEXC-TradingBot - INFO - בודק סימבול: ZENIXUSDT
+2025-02-25 13:30:14,447 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור ZENIXUSDT
+2025-02-25 13:30:14,450 - MEXC-TradingBot - ERROR - שגיאה בעיבוד נתוני Klines: Integer out of range. at position 19
+2025-02-25 13:30:14,450 - MEXC-TradingBot - WARNING - לא מספיק נתונים עבור ZENIXUSDT, מדלג
+2025-02-25 13:30:14,450 - MEXC-TradingBot - INFO - בודק סימבול: PEPE1USDT
+2025-02-25 13:30:15,070 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור PEPE1USDT
+2025-02-25 13:30:15,092 - MEXC-TradingBot - INFO - PEPE1USDT - ציון: 0, RSI: nan, MACD Hist: 0.000000, Volatility: 0.00%
+2025-02-25 13:30:15,092 - MEXC-TradingBot - INFO - בודק סימבול: GPU1USDT
+2025-02-25 13:30:15,994 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור GPU1USDT
+2025-02-25 13:30:16,002 - MEXC-TradingBot - INFO - GPU1USDT - ציון: 1, RSI: 100.00, MACD Hist: 0.000000, Volatility: 0.33%
+2025-02-25 13:30:16,002 - MEXC-TradingBot - INFO - בודק סימבול: XAI2USDT
+2025-02-25 13:30:16,608 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור XAI2USDT
+2025-02-25 13:30:16,616 - MEXC-TradingBot - INFO - XAI2USDT - ציון: 1, RSI: 57.00, MACD Hist: 0.000000, Volatility: 0.32%
+2025-02-25 13:30:16,616 - MEXC-TradingBot - INFO - בודק סימבול: BABYDOGE2USDT
+2025-02-25 13:30:17,533 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור BABYDOGE2USDT
+2025-02-25 13:30:17,543 - MEXC-TradingBot - INFO - BABYDOGE2USDT - ציון: 2, RSI: 47.50, MACD Hist: -0.000000, Volatility: 0.14%
+2025-02-25 13:30:17,543 - MEXC-TradingBot - INFO - בודק סימבול: TESLAIUSDT
+2025-02-25 13:30:18,138 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור TESLAIUSDT
+2025-02-25 13:30:18,145 - MEXC-TradingBot - INFO - TESLAIUSDT - ציון: 3, RSI: 100.00, MACD Hist: 0.000000, Volatility: 0.32%
+2025-02-25 13:30:18,145 - MEXC-TradingBot - INFO - בודק סימבול: SONICINUUSDT
+2025-02-25 13:30:18,898 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור SONICINUUSDT
+2025-02-25 13:30:18,906 - MEXC-TradingBot - INFO - SONICINUUSDT - ציון: 1, RSI: 53.57, MACD Hist: 0.000000, Volatility: 0.03%
+2025-02-25 13:30:18,906 - MEXC-TradingBot - INFO - בודק סימבול: FLOKICEOUSDT
+2025-02-25 13:30:19,547 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור FLOKICEOUSDT
+2025-02-25 13:30:19,558 - MEXC-TradingBot - INFO - FLOKICEOUSDT - ציון: 5, RSI: 38.61, MACD Hist: -0.000000, Volatility: 0.66%
+2025-02-25 13:30:19,559 - MEXC-TradingBot - INFO - בודק סימבול: SMILEYUSDT
+2025-02-25 13:30:20,176 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור SMILEYUSDT
+2025-02-25 13:30:20,185 - MEXC-TradingBot - INFO - SMILEYUSDT - ציון: 2, RSI: 56.98, MACD Hist: 0.000000, Volatility: 0.41%
+2025-02-25 13:30:20,185 - MEXC-TradingBot - INFO - בודק סימבול: SHIBAIUSDT
+2025-02-25 13:30:20,707 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור SHIBAIUSDT
+2025-02-25 13:30:20,715 - MEXC-TradingBot - INFO - SHIBAIUSDT - ציון: 4, RSI: 46.59, MACD Hist: -0.000000, Volatility: 0.32%
+2025-02-25 13:30:20,715 - MEXC-TradingBot - INFO - בודק סימבול: GROKAIUSDT
+2025-02-25 13:30:21,522 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור GROKAIUSDT
+2025-02-25 13:30:21,531 - MEXC-TradingBot - INFO - GROKAIUSDT - ציון: 1, RSI: nan, MACD Hist: -0.000000, Volatility: 0.00%
+2025-02-25 13:30:21,531 - MEXC-TradingBot - INFO - בודק סימבול: BABYSORAUSDT
+2025-02-25 13:30:22,258 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור BABYSORAUSDT
+2025-02-25 13:30:22,270 - MEXC-TradingBot - INFO - BABYSORAUSDT - ציון: 0, RSI: nan, MACD Hist: -0.000000, Volatility: 0.00%
+2025-02-25 13:30:22,270 - MEXC-TradingBot - INFO - בודק סימבול: POKEMONUSDT
+2025-02-25 13:30:23,051 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור POKEMONUSDT
+2025-02-25 13:30:23,059 - MEXC-TradingBot - INFO - POKEMONUSDT - ציון: 4, RSI: 64.68, MACD Hist: -0.000000, Volatility: 0.63%
+2025-02-25 13:30:23,059 - MEXC-TradingBot - INFO - בודק סימבול: ELONDOGEUSDT
+2025-02-25 13:30:23,711 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור ELONDOGEUSDT
+2025-02-25 13:30:23,719 - MEXC-TradingBot - INFO - ELONDOGEUSDT - ציון: 0, RSI: nan, MACD Hist: 0.000000, Volatility: 0.00%
+2025-02-25 13:30:23,720 - MEXC-TradingBot - INFO - בודק סימבול: DOGELONUSDT
+2025-02-25 13:30:24,346 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור DOGELONUSDT
+2025-02-25 13:30:24,355 - MEXC-TradingBot - INFO - DOGELONUSDT - ציון: 0, RSI: 0.00, MACD Hist: -0.000000, Volatility: 0.11%
+2025-02-25 13:30:24,355 - MEXC-TradingBot - INFO - בודק סימבול: BABYELONUSDT
+2025-02-25 13:30:24,921 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור BABYELONUSDT
+2025-02-25 13:30:24,931 - MEXC-TradingBot - INFO - BABYELONUSDT - ציון: 0, RSI: nan, MACD Hist: 0.000000, Volatility: 0.00%
+2025-02-25 13:30:24,931 - MEXC-TradingBot - INFO - בודק סימבול: ELONMARSUSDT
+2025-02-25 13:30:25,530 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור ELONMARSUSDT
+2025-02-25 13:30:25,538 - MEXC-TradingBot - INFO - ELONMARSUSDT - ציון: 0, RSI: nan, MACD Hist: 0.000000, Volatility: 0.00%
+2025-02-25 13:30:25,539 - MEXC-TradingBot - INFO - בודק סימבול: SIMPSONUSDT
+2025-02-25 13:30:26,435 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור SIMPSONUSDT
+2025-02-25 13:30:26,530 - MEXC-TradingBot - INFO - SIMPSONUSDT - ציון: 0, RSI: nan, MACD Hist: 0.000000, Volatility: 0.00%
+2025-02-25 13:30:26,530 - MEXC-TradingBot - INFO - נבחר סימבול למסחר: FLOKICEOUSDT עם ציון 5
+2025-02-25 13:30:26,531 - MEXC-TradingBot - INFO - מתחיל אסטרטגיית מסחר עבור FLOKICEOUSDT
+2025-02-25 13:30:27,086 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור FLOKICEOUSDT
+2025-02-25 13:30:29,232 - MEXC-TradingBot - INFO - בודק סימבול: STARDUSDT
+2025-02-25 13:30:30,113 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור STARDUSDT
+2025-02-25 13:30:30,116 - MEXC-TradingBot - ERROR - שגיאה בעיבוד נתוני Klines: Integer out of range. at position 19
+2025-02-25 13:30:30,116 - MEXC-TradingBot - WARNING - לא מספיק נתונים עבור STARDUSDT, מדלג
+2025-02-25 13:30:30,117 - MEXC-TradingBot - INFO - בודק סימבול: LEOTUSDT
+2025-02-25 13:30:30,669 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור LEOTUSDT
+2025-02-25 13:30:30,678 - MEXC-TradingBot - ERROR - שגיאה בעיבוד נתוני Klines: Integer out of range. at position 40
+2025-02-25 13:30:30,678 - MEXC-TradingBot - WARNING - לא מספיק נתונים עבור LEOTUSDT, מדלג
+2025-02-25 13:30:30,678 - MEXC-TradingBot - INFO - בודק סימבול: ZENIXUSDT
+2025-02-25 13:30:31,266 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור ZENIXUSDT
+2025-02-25 13:30:31,270 - MEXC-TradingBot - ERROR - שגיאה בעיבוד נתוני Klines: Integer out of range. at position 19
+2025-02-25 13:30:31,270 - MEXC-TradingBot - WARNING - לא מספיק נתונים עבור ZENIXUSDT, מדלג
+2025-02-25 13:30:31,270 - MEXC-TradingBot - INFO - בודק סימבול: PEPE1USDT
+2025-02-25 13:30:31,808 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור PEPE1USDT
+2025-02-25 13:30:31,816 - MEXC-TradingBot - INFO - PEPE1USDT - ציון: 0, RSI: nan, MACD Hist: 0.000000, Volatility: 0.00%
+2025-02-25 13:30:31,816 - MEXC-TradingBot - INFO - בודק סימבול: GPU1USDT
+2025-02-25 13:30:32,570 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור GPU1USDT
+2025-02-25 13:30:32,578 - MEXC-TradingBot - INFO - GPU1USDT - ציון: 1, RSI: 100.00, MACD Hist: 0.000000, Volatility: 0.33%
+2025-02-25 13:30:32,579 - MEXC-TradingBot - INFO - בודק סימבול: XAI2USDT
+2025-02-25 13:30:33,191 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור XAI2USDT
+2025-02-25 13:30:33,201 - MEXC-TradingBot - INFO - XAI2USDT - ציון: 1, RSI: 57.00, MACD Hist: 0.000000, Volatility: 0.32%
+2025-02-25 13:30:33,201 - MEXC-TradingBot - INFO - בודק סימבול: BABYDOGE2USDT
+2025-02-25 13:30:33,911 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור BABYDOGE2USDT
+2025-02-25 13:30:33,921 - MEXC-TradingBot - INFO - BABYDOGE2USDT - ציון: 0, RSI: 51.16, MACD Hist: 0.000000, Volatility: 0.15%
+2025-02-25 13:30:33,922 - MEXC-TradingBot - INFO - בודק סימבול: TESLAIUSDT
+2025-02-25 13:30:34,497 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור TESLAIUSDT
+2025-02-25 13:30:34,506 - MEXC-TradingBot - INFO - TESLAIUSDT - ציון: 3, RSI: 100.00, MACD Hist: 0.000000, Volatility: 0.32%
+2025-02-25 13:30:34,506 - MEXC-TradingBot - INFO - בודק סימבול: SONICINUUSDT
+2025-02-25 13:30:35,144 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור SONICINUUSDT
+2025-02-25 13:30:35,153 - MEXC-TradingBot - INFO - SONICINUUSDT - ציון: 3, RSI: 48.39, MACD Hist: 0.000000, Volatility: 0.03%
+2025-02-25 13:30:35,153 - MEXC-TradingBot - INFO - בודק סימבול: FLOKICEOUSDT
+2025-02-25 13:30:35,710 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור FLOKICEOUSDT
+2025-02-25 13:30:35,719 - MEXC-TradingBot - INFO - FLOKICEOUSDT - ציון: 5, RSI: 38.61, MACD Hist: -0.000000, Volatility: 0.66%
+2025-02-25 13:30:35,719 - MEXC-TradingBot - INFO - בודק סימבול: SMILEYUSDT
+2025-02-25 13:30:36,563 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור SMILEYUSDT
+2025-02-25 13:30:36,571 - MEXC-TradingBot - INFO - SMILEYUSDT - ציון: 2, RSI: 60.98, MACD Hist: 0.000000, Volatility: 0.41%
+2025-02-25 13:30:36,572 - MEXC-TradingBot - INFO - בודק סימבול: SHIBAIUSDT
+2025-02-25 13:30:37,206 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור SHIBAIUSDT
+2025-02-25 13:30:37,213 - MEXC-TradingBot - INFO - SHIBAIUSDT - ציון: 4, RSI: 46.59, MACD Hist: -0.000000, Volatility: 0.32%
+2025-02-25 13:30:37,214 - MEXC-TradingBot - INFO - בודק סימבול: GROKAIUSDT
+2025-02-25 13:30:38,115 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור GROKAIUSDT
+2025-02-25 13:30:38,124 - MEXC-TradingBot - INFO - GROKAIUSDT - ציון: 1, RSI: nan, MACD Hist: -0.000000, Volatility: 0.00%
+2025-02-25 13:30:38,124 - MEXC-TradingBot - INFO - בודק סימבול: BABYSORAUSDT
+2025-02-25 13:30:38,743 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור BABYSORAUSDT
+2025-02-25 13:30:38,751 - MEXC-TradingBot - INFO - BABYSORAUSDT - ציון: 0, RSI: nan, MACD Hist: -0.000000, Volatility: 0.00%
+2025-02-25 13:30:38,751 - MEXC-TradingBot - INFO - בודק סימבול: POKEMONUSDT
+2025-02-25 13:30:39,354 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור POKEMONUSDT
+2025-02-25 13:30:39,361 - MEXC-TradingBot - INFO - POKEMONUSDT - ציון: 4, RSI: 64.68, MACD Hist: -0.000000, Volatility: 0.63%
+2025-02-25 13:30:39,361 - MEXC-TradingBot - INFO - בודק סימבול: ELONDOGEUSDT
+2025-02-25 13:30:39,978 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור ELONDOGEUSDT
+2025-02-25 13:30:39,988 - MEXC-TradingBot - INFO - ELONDOGEUSDT - ציון: 0, RSI: nan, MACD Hist: 0.000000, Volatility: 0.00%
+2025-02-25 13:30:39,988 - MEXC-TradingBot - INFO - בודק סימבול: DOGELONUSDT
+2025-02-25 13:30:40,878 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור DOGELONUSDT
+2025-02-25 13:30:40,887 - MEXC-TradingBot - INFO - DOGELONUSDT - ציון: 0, RSI: 0.00, MACD Hist: -0.000000, Volatility: 0.11%
+2025-02-25 13:30:40,887 - MEXC-TradingBot - INFO - בודק סימבול: BABYELONUSDT
+2025-02-25 13:30:41,510 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור BABYELONUSDT
+2025-02-25 13:30:41,527 - MEXC-TradingBot - INFO - BABYELONUSDT - ציון: 0, RSI: nan, MACD Hist: 0.000000, Volatility: 0.00%
+2025-02-25 13:30:41,527 - MEXC-TradingBot - INFO - בודק סימבול: ELONMARSUSDT
+2025-02-25 13:30:42,320 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור ELONMARSUSDT
+2025-02-25 13:30:42,339 - MEXC-TradingBot - INFO - ELONMARSUSDT - ציון: 0, RSI: nan, MACD Hist: 0.000000, Volatility: 0.00%
+2025-02-25 13:30:42,339 - MEXC-TradingBot - INFO - בודק סימבול: SIMPSONUSDT
+2025-02-25 13:30:43,676 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור SIMPSONUSDT
+2025-02-25 13:30:43,687 - MEXC-TradingBot - INFO - SIMPSONUSDT - ציון: 0, RSI: nan, MACD Hist: 0.000000, Volatility: 0.00%
+2025-02-25 13:30:43,687 - MEXC-TradingBot - INFO - נבחר סימבול למסחר: FLOKICEOUSDT עם ציון 5
+2025-02-25 13:31:43,692 - MEXC-TradingBot - INFO - מתחיל אסטרטגיית מסחר עבור FLOKICEOUSDT
+2025-02-25 13:31:44,804 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור FLOKICEOUSDT
+2025-02-25 13:32:03,008 - MEXC-TradingBot - INFO - עוצר את הבוט...
+2025-02-25 13:32:17,172 - MEXC-TradingBot - INFO - מאתחל בוט מסחר MEXC במצב בדיקה
+2025-02-25 13:32:17,173 - MEXC-TradingBot - INFO - מתחיל להריץ את בוט המסחר...
+2025-02-25 13:32:18,732 - MEXC-TradingBot - INFO - בודק סימבול: STARDUSDT
+2025-02-25 13:32:19,344 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור STARDUSDT
+2025-02-25 13:32:19,366 - MEXC-TradingBot - ERROR - שגיאה בעיבוד נתוני Klines: Integer out of range. at position 17
+2025-02-25 13:32:19,367 - MEXC-TradingBot - WARNING - לא מספיק נתונים עבור STARDUSDT, מדלג
+2025-02-25 13:32:19,367 - MEXC-TradingBot - INFO - בודק סימבול: LEOTUSDT
+2025-02-25 13:32:20,011 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור LEOTUSDT
+2025-02-25 13:32:20,013 - MEXC-TradingBot - ERROR - שגיאה בעיבוד נתוני Klines: Integer out of range. at position 38
+2025-02-25 13:32:20,013 - MEXC-TradingBot - WARNING - לא מספיק נתונים עבור LEOTUSDT, מדלג
+2025-02-25 13:32:20,013 - MEXC-TradingBot - INFO - בודק סימבול: ZENIXUSDT
+2025-02-25 13:32:20,619 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור ZENIXUSDT
+2025-02-25 13:32:20,622 - MEXC-TradingBot - ERROR - שגיאה בעיבוד נתוני Klines: Integer out of range. at position 17
+2025-02-25 13:32:20,622 - MEXC-TradingBot - WARNING - לא מספיק נתונים עבור ZENIXUSDT, מדלג
+2025-02-25 13:32:20,622 - MEXC-TradingBot - INFO - בודק סימבול: PEPE1USDT
+2025-02-25 13:32:21,262 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור PEPE1USDT
+2025-02-25 13:32:21,281 - MEXC-TradingBot - INFO - PEPE1USDT - ציון: 0, RSI: nan, MACD Hist: 0.000000, Volatility: 0.00%
+2025-02-25 13:32:21,281 - MEXC-TradingBot - INFO - בודק סימבול: GPU1USDT
+2025-02-25 13:32:21,995 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור GPU1USDT
+2025-02-25 13:32:22,003 - MEXC-TradingBot - INFO - GPU1USDT - ציון: 0, RSI: 100.00, MACD Hist: 0.000000, Volatility: 0.10%
+2025-02-25 13:32:22,003 - MEXC-TradingBot - INFO - בודק סימבול: XAI2USDT
+2025-02-25 13:32:23,189 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור XAI2USDT
+2025-02-25 13:32:23,198 - MEXC-TradingBot - INFO - XAI2USDT - ציון: 2, RSI: 46.32, MACD Hist: -0.000000, Volatility: 0.30%
+2025-02-25 13:32:23,198 - MEXC-TradingBot - INFO - בודק סימבול: BABYDOGE2USDT
+2025-02-25 13:32:24,381 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור BABYDOGE2USDT
+2025-02-25 13:32:24,390 - MEXC-TradingBot - INFO - BABYDOGE2USDT - ציון: 0, RSI: 66.27, MACD Hist: 0.000000, Volatility: 0.15%
+2025-02-25 13:32:24,390 - MEXC-TradingBot - INFO - בודק סימבול: TESLAIUSDT
+2025-02-25 13:32:24,998 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור TESLAIUSDT
+2025-02-25 13:32:25,006 - MEXC-TradingBot - INFO - TESLAIUSDT - ציון: 3, RSI: 100.00, MACD Hist: 0.000000, Volatility: 0.32%
+2025-02-25 13:32:25,006 - MEXC-TradingBot - INFO - בודק סימבול: SONICINUUSDT
+2025-02-25 13:32:25,579 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור SONICINUUSDT
+2025-02-25 13:32:25,588 - MEXC-TradingBot - INFO - SONICINUUSDT - ציון: 2, RSI: 48.15, MACD Hist: 0.000000, Volatility: 0.03%
+2025-02-25 13:32:25,588 - MEXC-TradingBot - INFO - בודק סימבול: FLOKICEOUSDT
+2025-02-25 13:32:26,549 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור FLOKICEOUSDT
+2025-02-25 13:32:26,558 - MEXC-TradingBot - INFO - FLOKICEOUSDT - ציון: 4, RSI: 54.39, MACD Hist: 0.000000, Volatility: 0.69%
+2025-02-25 13:32:26,558 - MEXC-TradingBot - INFO - בודק סימבול: SMILEYUSDT
+2025-02-25 13:32:27,154 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור SMILEYUSDT
+2025-02-25 13:32:27,162 - MEXC-TradingBot - INFO - SMILEYUSDT - ציון: 4, RSI: 47.62, MACD Hist: 0.000000, Volatility: 0.34%
+2025-02-25 13:32:27,162 - MEXC-TradingBot - INFO - בודק סימבול: SHIBAIUSDT
+2025-02-25 13:32:28,090 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור SHIBAIUSDT
+2025-02-25 13:32:28,097 - MEXC-TradingBot - INFO - SHIBAIUSDT - ציון: 2, RSI: 56.32, MACD Hist: -0.000000, Volatility: 0.32%
+2025-02-25 13:32:28,098 - MEXC-TradingBot - INFO - בודק סימבול: GROKAIUSDT
+2025-02-25 13:32:28,982 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור GROKAIUSDT
+2025-02-25 13:32:28,990 - MEXC-TradingBot - INFO - GROKAIUSDT - ציון: 0, RSI: nan, MACD Hist: -0.000000, Volatility: 0.00%
+2025-02-25 13:32:28,990 - MEXC-TradingBot - INFO - בודק סימבול: BABYSORAUSDT
+2025-02-25 13:32:29,915 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור BABYSORAUSDT
+2025-02-25 13:32:29,923 - MEXC-TradingBot - INFO - BABYSORAUSDT - ציון: 0, RSI: nan, MACD Hist: -0.000000, Volatility: 0.00%
+2025-02-25 13:32:29,923 - MEXC-TradingBot - INFO - בודק סימבול: POKEMONUSDT
+2025-02-25 13:32:30,555 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור POKEMONUSDT
+2025-02-25 13:32:30,563 - MEXC-TradingBot - INFO - POKEMONUSDT - ציון: 4, RSI: 64.68, MACD Hist: -0.000000, Volatility: 0.63%
+2025-02-25 13:32:30,563 - MEXC-TradingBot - INFO - בודק סימבול: ELONDOGEUSDT
+2025-02-25 13:32:31,158 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור ELONDOGEUSDT
+2025-02-25 13:32:31,166 - MEXC-TradingBot - INFO - ELONDOGEUSDT - ציון: 0, RSI: nan, MACD Hist: 0.000000, Volatility: 0.00%
+2025-02-25 13:32:31,166 - MEXC-TradingBot - INFO - בודק סימבול: DOGELONUSDT
+2025-02-25 13:32:31,790 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור DOGELONUSDT
+2025-02-25 13:32:31,798 - MEXC-TradingBot - INFO - DOGELONUSDT - ציון: 0, RSI: 0.00, MACD Hist: -0.000000, Volatility: 0.11%
+2025-02-25 13:32:31,798 - MEXC-TradingBot - INFO - בודק סימבול: BABYELONUSDT
+2025-02-25 13:32:32,340 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור BABYELONUSDT
+2025-02-25 13:32:32,348 - MEXC-TradingBot - INFO - BABYELONUSDT - ציון: 0, RSI: nan, MACD Hist: 0.000000, Volatility: 0.00%
+2025-02-25 13:32:32,348 - MEXC-TradingBot - INFO - בודק סימבול: ELONMARSUSDT
+2025-02-25 13:32:33,314 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור ELONMARSUSDT
+2025-02-25 13:32:33,325 - MEXC-TradingBot - INFO - ELONMARSUSDT - ציון: 0, RSI: nan, MACD Hist: 0.000000, Volatility: 0.00%
+2025-02-25 13:32:33,325 - MEXC-TradingBot - INFO - בודק סימבול: SIMPSONUSDT
+2025-02-25 13:32:34,004 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור SIMPSONUSDT
+2025-02-25 13:32:34,012 - MEXC-TradingBot - INFO - SIMPSONUSDT - ציון: 0, RSI: nan, MACD Hist: 0.000000, Volatility: 0.00%
+2025-02-25 13:32:34,012 - MEXC-TradingBot - INFO - נבחר סימבול למסחר: FLOKICEOUSDT עם ציון 4
+2025-02-25 13:32:34,012 - MEXC-TradingBot - INFO - מתחיל אסטרטגיית מסחר עבור FLOKICEOUSDT
+2025-02-25 13:32:34,606 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור FLOKICEOUSDT
+2025-02-25 13:33:34,620 - MEXC-TradingBot - INFO - מתחיל אסטרטגיית מסחר עבור FLOKICEOUSDT
+2025-02-25 13:33:35,361 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור FLOKICEOUSDT
+2025-02-25 13:34:35,376 - MEXC-TradingBot - INFO - מתחיל אסטרטגיית מסחר עבור FLOKICEOUSDT
+2025-02-25 13:34:36,026 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור FLOKICEOUSDT
+2025-02-25 13:35:36,039 - MEXC-TradingBot - INFO - מתחיל אסטרטגיית מסחר עבור FLOKICEOUSDT
+2025-02-25 13:35:37,174 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור FLOKICEOUSDT
+2025-02-25 13:36:37,183 - MEXC-TradingBot - INFO - מתחיל אסטרטגיית מסחר עבור FLOKICEOUSDT
+2025-02-25 13:36:37,778 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור FLOKICEOUSDT
+2025-02-25 13:36:43,887 - MEXC-TradingBot - INFO - עוצר את הבוט...
+2025-02-25 13:36:48,915 - MEXC-TradingBot - INFO - מאתחל בוט מסחר MEXC במצב מסחר אמיתי
+2025-02-25 13:36:48,915 - MEXC-TradingBot - INFO - מתחיל להריץ את בוט המסחר...
+2025-02-25 13:36:50,896 - MEXC-TradingBot - INFO - בודק סימבול: STARDUSDT
+2025-02-25 13:36:51,476 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור STARDUSDT
+2025-02-25 13:36:51,480 - MEXC-TradingBot - ERROR - שגיאה בעיבוד נתוני Klines: Integer out of range. at position 13
+2025-02-25 13:36:51,480 - MEXC-TradingBot - WARNING - לא מספיק נתונים עבור STARDUSDT, מדלג
+2025-02-25 13:36:51,480 - MEXC-TradingBot - INFO - בודק סימבול: LEOTUSDT
+2025-02-25 13:36:52,240 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור LEOTUSDT
+2025-02-25 13:36:52,242 - MEXC-TradingBot - ERROR - שגיאה בעיבוד נתוני Klines: Integer out of range. at position 34
+2025-02-25 13:36:52,242 - MEXC-TradingBot - WARNING - לא מספיק נתונים עבור LEOTUSDT, מדלג
+2025-02-25 13:36:52,242 - MEXC-TradingBot - INFO - בודק סימבול: ZENIXUSDT
+2025-02-25 13:36:53,143 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור ZENIXUSDT
+2025-02-25 13:36:53,146 - MEXC-TradingBot - ERROR - שגיאה בעיבוד נתוני Klines: Integer out of range. at position 13
+2025-02-25 13:36:53,147 - MEXC-TradingBot - WARNING - לא מספיק נתונים עבור ZENIXUSDT, מדלג
+2025-02-25 13:36:53,147 - MEXC-TradingBot - INFO - בודק סימבול: PEPE1USDT
+2025-02-25 13:36:53,709 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור PEPE1USDT
+2025-02-25 13:36:53,718 - MEXC-TradingBot - INFO - PEPE1USDT - ציון: 0, RSI: nan, MACD Hist: 0.000000, Volatility: 0.00%
+2025-02-25 13:36:53,719 - MEXC-TradingBot - INFO - בודק סימבול: GPU1USDT
+2025-02-25 13:36:54,379 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור GPU1USDT
+2025-02-25 13:36:54,388 - MEXC-TradingBot - INFO - GPU1USDT - ציון: 1, RSI: 100.00, MACD Hist: 0.000000, Volatility: 0.23%
+2025-02-25 13:36:54,388 - MEXC-TradingBot - INFO - בודק סימבול: XAI2USDT
+2025-02-25 13:36:54,886 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור XAI2USDT
+2025-02-25 13:36:54,896 - MEXC-TradingBot - INFO - XAI2USDT - ציון: 3, RSI: 51.76, MACD Hist: 0.000000, Volatility: 0.27%
+2025-02-25 13:36:54,896 - MEXC-TradingBot - INFO - בודק סימבול: BABYDOGE2USDT
+2025-02-25 13:36:55,701 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור BABYDOGE2USDT
+2025-02-25 13:36:55,710 - MEXC-TradingBot - INFO - BABYDOGE2USDT - ציון: 0, RSI: 66.00, MACD Hist: 0.000000, Volatility: 0.14%
+2025-02-25 13:36:55,710 - MEXC-TradingBot - INFO - בודק סימבול: TESLAIUSDT
+2025-02-25 13:36:56,546 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור TESLAIUSDT
+2025-02-25 13:36:56,555 - MEXC-TradingBot - INFO - TESLAIUSDT - ציון: 3, RSI: 100.00, MACD Hist: 0.000000, Volatility: 0.32%
+2025-02-25 13:36:56,555 - MEXC-TradingBot - INFO - בודק סימבול: SONICINUUSDT
+2025-02-25 13:36:57,474 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור SONICINUUSDT
+2025-02-25 13:36:57,556 - MEXC-TradingBot - INFO - SONICINUUSDT - ציון: 2, RSI: 48.00, MACD Hist: 0.000000, Volatility: 0.03%
+2025-02-25 13:36:57,556 - MEXC-TradingBot - INFO - בודק סימבול: FLOKICEOUSDT
+2025-02-25 13:36:58,144 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור FLOKICEOUSDT
+2025-02-25 13:36:58,153 - MEXC-TradingBot - INFO - FLOKICEOUSDT - ציון: 2, RSI: 62.92, MACD Hist: 0.000000, Volatility: 0.57%
+2025-02-25 13:36:58,153 - MEXC-TradingBot - INFO - בודק סימבול: SMILEYUSDT
+2025-02-25 13:36:58,997 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור SMILEYUSDT
+2025-02-25 13:36:59,005 - MEXC-TradingBot - INFO - SMILEYUSDT - ציון: 5, RSI: 57.41, MACD Hist: 0.000000, Volatility: 0.36%
+2025-02-25 13:36:59,006 - MEXC-TradingBot - INFO - בודק סימבול: SHIBAIUSDT
+2025-02-25 13:36:59,924 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור SHIBAIUSDT
+2025-02-25 13:36:59,933 - MEXC-TradingBot - INFO - SHIBAIUSDT - ציון: 2, RSI: 62.39, MACD Hist: 0.000000, Volatility: 0.40%
+2025-02-25 13:36:59,934 - MEXC-TradingBot - INFO - בודק סימבול: GROKAIUSDT
+2025-02-25 13:37:00,854 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור GROKAIUSDT
+2025-02-25 13:37:00,862 - MEXC-TradingBot - INFO - GROKAIUSDT - ציון: 0, RSI: nan, MACD Hist: -0.000000, Volatility: 0.00%
+2025-02-25 13:37:00,862 - MEXC-TradingBot - INFO - בודק סימבול: BABYSORAUSDT
+2025-02-25 13:37:01,471 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור BABYSORAUSDT
+2025-02-25 13:37:01,480 - MEXC-TradingBot - INFO - BABYSORAUSDT - ציון: 0, RSI: nan, MACD Hist: -0.000000, Volatility: 0.00%
+2025-02-25 13:37:01,480 - MEXC-TradingBot - INFO - בודק סימבול: POKEMONUSDT
+2025-02-25 13:37:02,077 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור POKEMONUSDT
+2025-02-25 13:37:02,087 - MEXC-TradingBot - INFO - POKEMONUSDT - ציון: 5, RSI: 50.00, MACD Hist: -0.000000, Volatility: 0.44%
+2025-02-25 13:37:02,087 - MEXC-TradingBot - INFO - בודק סימבול: ELONDOGEUSDT
+2025-02-25 13:37:02,696 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור ELONDOGEUSDT
+2025-02-25 13:37:02,703 - MEXC-TradingBot - INFO - ELONDOGEUSDT - ציון: 1, RSI: 100.00, MACD Hist: 0.000000, Volatility: 0.01%
+2025-02-25 13:37:02,704 - MEXC-TradingBot - INFO - בודק סימבול: DOGELONUSDT
+2025-02-25 13:37:03,634 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור DOGELONUSDT
+2025-02-25 13:37:03,642 - MEXC-TradingBot - INFO - DOGELONUSDT - ציון: 1, RSI: 0.00, MACD Hist: -0.000000, Volatility: 0.35%
+2025-02-25 13:37:03,642 - MEXC-TradingBot - INFO - בודק סימבול: ELONMARSUSDT
+2025-02-25 13:37:04,313 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור ELONMARSUSDT
+2025-02-25 13:37:04,321 - MEXC-TradingBot - INFO - ELONMARSUSDT - ציון: 4, RSI: 100.00, MACD Hist: 0.000000, Volatility: 0.92%
+2025-02-25 13:37:04,321 - MEXC-TradingBot - INFO - בודק סימבול: BABYELONUSDT
+2025-02-25 13:37:04,907 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור BABYELONUSDT
+2025-02-25 13:37:04,915 - MEXC-TradingBot - INFO - BABYELONUSDT - ציון: 0, RSI: nan, MACD Hist: 0.000000, Volatility: 0.00%
+2025-02-25 13:37:04,915 - MEXC-TradingBot - INFO - בודק סימבול: SIMPSONUSDT
+2025-02-25 13:37:05,775 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור SIMPSONUSDT
+2025-02-25 13:37:05,783 - MEXC-TradingBot - INFO - SIMPSONUSDT - ציון: 0, RSI: nan, MACD Hist: 0.000000, Volatility: 0.00%
+2025-02-25 13:37:05,783 - MEXC-TradingBot - INFO - נבחר סימבול למסחר: SMILEYUSDT עם ציון 5
+2025-02-25 13:37:05,784 - MEXC-TradingBot - INFO - מתחיל אסטרטגיית מסחר עבור SMILEYUSDT
+2025-02-25 13:37:06,377 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור SMILEYUSDT
+2025-02-25 13:38:06,390 - MEXC-TradingBot - INFO - מתחיל אסטרטגיית מסחר עבור SMILEYUSDT
+2025-02-25 13:38:07,056 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור SMILEYUSDT
+2025-02-25 13:39:07,027 - MEXC-TradingBot - INFO - מתחיל אסטרטגיית מסחר עבור SMILEYUSDT
+2025-02-25 13:39:07,986 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור SMILEYUSDT
+2025-02-25 13:40:07,999 - MEXC-TradingBot - INFO - מתחיל אסטרטגיית מסחר עבור SMILEYUSDT
+2025-02-25 13:40:08,651 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור SMILEYUSDT
+2025-02-25 13:41:08,660 - MEXC-TradingBot - INFO - מתחיל אסטרטגיית מסחר עבור SMILEYUSDT
+2025-02-25 13:41:09,950 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור SMILEYUSDT
+2025-02-25 13:42:09,961 - MEXC-TradingBot - INFO - מתחיל אסטרטגיית מסחר עבור SMILEYUSDT
+2025-02-25 13:42:10,627 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור SMILEYUSDT
+2025-02-25 13:43:10,636 - MEXC-TradingBot - INFO - מתחיל אסטרטגיית מסחר עבור SMILEYUSDT
+2025-02-25 13:43:11,341 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור SMILEYUSDT
+2025-02-25 13:44:11,355 - MEXC-TradingBot - INFO - מתחיל אסטרטגיית מסחר עבור SMILEYUSDT
+2025-02-25 13:44:13,393 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור SMILEYUSDT
+2025-02-25 13:45:13,402 - MEXC-TradingBot - INFO - מתחיל אסטרטגיית מסחר עבור SMILEYUSDT
+2025-02-25 13:45:14,049 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור SMILEYUSDT
+2025-02-25 13:46:14,059 - MEXC-TradingBot - INFO - מתחיל אסטרטגיית מסחר עבור SMILEYUSDT
+2025-02-25 13:46:14,797 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור SMILEYUSDT
+2025-02-25 13:47:14,809 - MEXC-TradingBot - INFO - מתחיל אסטרטגיית מסחר עבור SMILEYUSDT
+2025-02-25 13:47:15,505 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור SMILEYUSDT
+2025-02-25 13:48:15,517 - MEXC-TradingBot - INFO - מתחיל אסטרטגיית מסחר עבור SMILEYUSDT
+2025-02-25 13:48:16,236 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור SMILEYUSDT
+2025-02-25 13:49:16,245 - MEXC-TradingBot - INFO - מתחיל אסטרטגיית מסחר עבור SMILEYUSDT
+2025-02-25 13:49:16,923 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור SMILEYUSDT
+2025-02-25 13:50:16,936 - MEXC-TradingBot - INFO - מתחיל אסטרטגיית מסחר עבור SMILEYUSDT
+2025-02-25 13:50:18,209 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור SMILEYUSDT
+2025-02-25 13:51:18,216 - MEXC-TradingBot - INFO - מתחיל אסטרטגיית מסחר עבור SMILEYUSDT
+2025-02-25 13:51:18,870 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור SMILEYUSDT
+2025-02-25 13:52:18,883 - MEXC-TradingBot - INFO - מתחיל אסטרטגיית מסחר עבור SMILEYUSDT
+2025-02-25 13:52:19,475 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור SMILEYUSDT
+2025-02-25 13:53:19,492 - MEXC-TradingBot - INFO - מתחיל אסטרטגיית מסחר עבור SMILEYUSDT
+2025-02-25 13:53:20,114 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור SMILEYUSDT
+2025-02-25 13:54:20,138 - MEXC-TradingBot - INFO - מתחיל אסטרטגיית מסחר עבור SMILEYUSDT
+2025-02-25 13:54:21,151 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור SMILEYUSDT
+2025-02-25 13:55:21,164 - MEXC-TradingBot - INFO - מתחיל אסטרטגיית מסחר עבור SMILEYUSDT
+2025-02-25 13:55:21,899 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור SMILEYUSDT
+2025-02-25 13:56:59,526 - MEXC-TradingBot - INFO - מתחיל אסטרטגיית מסחר עבור SMILEYUSDT
+2025-02-25 13:57:00,146 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור SMILEYUSDT
+2025-02-25 13:58:38,773 - MEXC-TradingBot - INFO - מתחיל אסטרטגיית מסחר עבור SMILEYUSDT
+2025-02-25 13:58:39,445 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור SMILEYUSDT
+2025-02-25 13:59:39,455 - MEXC-TradingBot - INFO - מתחיל אסטרטגיית מסחר עבור SMILEYUSDT
+2025-02-25 13:59:40,118 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור SMILEYUSDT
+2025-02-25 14:00:40,133 - MEXC-TradingBot - INFO - מתחיל אסטרטגיית מסחר עבור SMILEYUSDT
+2025-02-25 14:00:40,784 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור SMILEYUSDT
+2025-02-25 14:00:42,587 - MEXC-TradingBot - INFO - בודק סימבול: STARDUSDT
+2025-02-25 14:00:43,169 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור STARDUSDT
+2025-02-25 14:00:43,172 - MEXC-TradingBot - ERROR - שגיאה בעיבוד נתוני Klines: Integer out of range. at position 10
+2025-02-25 14:00:43,172 - MEXC-TradingBot - WARNING - לא מספיק נתונים עבור STARDUSDT, מדלג
+2025-02-25 14:00:43,172 - MEXC-TradingBot - INFO - בודק סימבול: LEOTUSDT
+2025-02-25 14:00:43,827 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור LEOTUSDT
+2025-02-25 14:00:43,830 - MEXC-TradingBot - ERROR - שגיאה בעיבוד נתוני Klines: Integer out of range. at position 10
+2025-02-25 14:00:43,831 - MEXC-TradingBot - WARNING - לא מספיק נתונים עבור LEOTUSDT, מדלג
+2025-02-25 14:00:43,831 - MEXC-TradingBot - INFO - בודק סימבול: ZENIXUSDT
+2025-02-25 14:00:44,473 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור ZENIXUSDT
+2025-02-25 14:00:44,476 - MEXC-TradingBot - ERROR - שגיאה בעיבוד נתוני Klines: Integer out of range. at position 12
+2025-02-25 14:00:44,477 - MEXC-TradingBot - WARNING - לא מספיק נתונים עבור ZENIXUSDT, מדלג
+2025-02-25 14:00:44,477 - MEXC-TradingBot - INFO - בודק סימבול: PEPE1USDT
+2025-02-25 14:00:45,595 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור PEPE1USDT
+2025-02-25 14:00:45,604 - MEXC-TradingBot - INFO - PEPE1USDT - ציון: 0, RSI: nan, MACD Hist: 0.000000, Volatility: 0.00%
+2025-02-25 14:00:45,604 - MEXC-TradingBot - INFO - בודק סימבול: GPU1USDT
+2025-02-25 14:00:47,361 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור GPU1USDT
+2025-02-25 14:00:47,375 - MEXC-TradingBot - INFO - GPU1USDT - ציון: 4, RSI: 64.74, MACD Hist: 0.000000, Volatility: 1.32%
+2025-02-25 14:00:47,375 - MEXC-TradingBot - INFO - בודק סימבול: XAI2USDT
+2025-02-25 14:00:48,089 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור XAI2USDT
+2025-02-25 14:00:48,097 - MEXC-TradingBot - INFO - XAI2USDT - ציון: 2, RSI: 50.33, MACD Hist: 0.000000, Volatility: 0.47%
+2025-02-25 14:00:48,098 - MEXC-TradingBot - INFO - בודק סימבול: BABYDOGE2USDT
+2025-02-25 14:00:48,710 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור BABYDOGE2USDT
+2025-02-25 14:00:48,718 - MEXC-TradingBot - INFO - BABYDOGE2USDT - ציון: 2, RSI: 77.30, MACD Hist: 0.000000, Volatility: 0.22%
+2025-02-25 14:00:48,719 - MEXC-TradingBot - INFO - בודק סימבול: TESLAIUSDT
+2025-02-25 14:00:49,696 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור TESLAIUSDT
+2025-02-25 14:00:49,703 - MEXC-TradingBot - INFO - TESLAIUSDT - ציון: 1, RSI: 0.00, MACD Hist: -0.000000, Volatility: 0.30%
+2025-02-25 14:00:49,704 - MEXC-TradingBot - INFO - בודק סימבול: SONICINUUSDT
+2025-02-25 14:00:50,439 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור SONICINUUSDT
+2025-02-25 14:00:50,448 - MEXC-TradingBot - INFO - SONICINUUSDT - ציון: 2, RSI: 46.59, MACD Hist: 0.000000, Volatility: 0.08%
+2025-02-25 14:00:50,448 - MEXC-TradingBot - INFO - בודק סימבול: FLOKICEOUSDT
+2025-02-25 14:00:51,168 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור FLOKICEOUSDT
+2025-02-25 14:00:51,176 - MEXC-TradingBot - INFO - FLOKICEOUSDT - ציון: 5, RSI: 57.14, MACD Hist: 0.000000, Volatility: 0.71%
+2025-02-25 14:00:51,177 - MEXC-TradingBot - INFO - בודק סימבול: SMILEYUSDT
+2025-02-25 14:00:52,558 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור SMILEYUSDT
+2025-02-25 14:00:52,565 - MEXC-TradingBot - INFO - SMILEYUSDT - ציון: 3, RSI: 56.88, MACD Hist: 0.000000, Volatility: 0.52%
+2025-02-25 14:00:52,565 - MEXC-TradingBot - INFO - בודק סימבול: SHIBAIUSDT
+2025-02-25 14:00:53,160 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור SHIBAIUSDT
+2025-02-25 14:00:53,169 - MEXC-TradingBot - INFO - SHIBAIUSDT - ציון: 6, RSI: 61.82, MACD Hist: 0.000000, Volatility: 0.52%
+2025-02-25 14:00:53,170 - MEXC-TradingBot - INFO - בודק סימבול: GROKAIUSDT
+2025-02-25 14:00:53,758 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור GROKAIUSDT
+2025-02-25 14:00:53,767 - MEXC-TradingBot - INFO - GROKAIUSDT - ציון: 0, RSI: nan, MACD Hist: -0.000000, Volatility: 0.00%
+2025-02-25 14:00:53,767 - MEXC-TradingBot - INFO - בודק סימבול: BABYSORAUSDT
+2025-02-25 14:00:55,219 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור BABYSORAUSDT
+2025-02-25 14:00:55,227 - MEXC-TradingBot - INFO - BABYSORAUSDT - ציון: 0, RSI: nan, MACD Hist: -0.000000, Volatility: 0.00%
+2025-02-25 14:00:55,228 - MEXC-TradingBot - INFO - בודק סימבול: POKEMONUSDT
+2025-02-25 14:00:55,904 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור POKEMONUSDT
+2025-02-25 14:00:55,911 - MEXC-TradingBot - INFO - POKEMONUSDT - ציון: 2, RSI: 100.00, MACD Hist: -0.000000, Volatility: 0.53%
+2025-02-25 14:00:55,912 - MEXC-TradingBot - INFO - בודק סימבול: DOGELONUSDT
+2025-02-25 14:00:56,556 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור DOGELONUSDT
+2025-02-25 14:00:56,566 - MEXC-TradingBot - INFO - DOGELONUSDT - ציון: 0, RSI: nan, MACD Hist: 0.000000, Volatility: 0.00%
+2025-02-25 14:00:56,566 - MEXC-TradingBot - INFO - בודק סימבול: ELONDOGEUSDT
+2025-02-25 14:00:57,142 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור ELONDOGEUSDT
+2025-02-25 14:00:57,151 - MEXC-TradingBot - INFO - ELONDOGEUSDT - ציון: 1, RSI: nan, MACD Hist: -0.000000, Volatility: 0.00%
+2025-02-25 14:00:57,151 - MEXC-TradingBot - INFO - בודק סימבול: ELONMARSUSDT
+2025-02-25 14:00:57,819 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור ELONMARSUSDT
+2025-02-25 14:00:57,827 - MEXC-TradingBot - INFO - ELONMARSUSDT - ציון: 2, RSI: nan, MACD Hist: -0.000000, Volatility: 0.00%
+2025-02-25 14:00:57,827 - MEXC-TradingBot - INFO - בודק סימבול: BABYELONUSDT
+2025-02-25 14:00:58,554 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור BABYELONUSDT
+2025-02-25 14:00:58,562 - MEXC-TradingBot - INFO - BABYELONUSDT - ציון: 2, RSI: 69.64, MACD Hist: -0.000000, Volatility: 0.20%
+2025-02-25 14:00:58,562 - MEXC-TradingBot - INFO - בודק סימבול: SIMPSONUSDT
+2025-02-25 14:00:59,256 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור SIMPSONUSDT
+2025-02-25 14:00:59,266 - MEXC-TradingBot - INFO - SIMPSONUSDT - ציון: 0, RSI: nan, MACD Hist: 0.000000, Volatility: 0.00%
+2025-02-25 14:00:59,266 - MEXC-TradingBot - INFO - נבחר סימבול למסחר: SHIBAIUSDT עם ציון 6
+2025-02-25 14:00:59,266 - MEXC-TradingBot - INFO - מחליף סימבול למסחר מ-SMILEYUSDT ל-SHIBAIUSDT
+2025-02-25 14:01:59,268 - MEXC-TradingBot - INFO - מתחיל אסטרטגיית מסחר עבור SHIBAIUSDT
+2025-02-25 14:01:59,992 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור SHIBAIUSDT
+2025-02-25 14:03:00,009 - MEXC-TradingBot - INFO - מתחיל אסטרטגיית מסחר עבור SHIBAIUSDT
+2025-02-25 14:03:00,632 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור SHIBAIUSDT
+2025-02-25 14:04:00,655 - MEXC-TradingBot - INFO - מתחיל אסטרטגיית מסחר עבור SHIBAIUSDT
+2025-02-25 14:04:01,376 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור SHIBAIUSDT
+2025-02-25 14:05:01,403 - MEXC-TradingBot - INFO - מתחיל אסטרטגיית מסחר עבור SHIBAIUSDT
+2025-02-25 14:05:03,393 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור SHIBAIUSDT
+2025-02-25 14:05:31,039 - MEXC-TradingBot - INFO - עוצר את הבוט...
+2025-02-25 14:05:33,991 - MEXC-TradingBot - INFO - מאתחל בוט מסחר MEXC במצב מסחר אמיתי
+2025-02-25 14:05:33,991 - MEXC-TradingBot - INFO - הגדרות: מקסימום 5 מטבעות למעקב, מקסימום 3 פוזיציות פתוחות במקביל
+2025-02-25 14:05:33,991 - MEXC-TradingBot - INFO - מתחיל להריץ את בוט המסחר...
+2025-02-25 14:05:35,966 - MEXC-TradingBot - INFO - בודק סימבול: STARDUSDT
+2025-02-25 14:05:36,549 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור STARDUSDT
+2025-02-25 14:05:36,552 - MEXC-TradingBot - ERROR - שגיאה בעיבוד נתוני Klines: Integer out of range. at position 5
+2025-02-25 14:05:36,553 - MEXC-TradingBot - WARNING - לא מספיק נתונים עבור STARDUSDT, מדלג
+2025-02-25 14:05:36,553 - MEXC-TradingBot - INFO - בודק סימבול: LEOTUSDT
+2025-02-25 14:05:37,160 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור LEOTUSDT
+2025-02-25 14:05:37,164 - MEXC-TradingBot - ERROR - שגיאה בעיבוד נתוני Klines: Integer out of range. at position 5
+2025-02-25 14:05:37,165 - MEXC-TradingBot - WARNING - לא מספיק נתונים עבור LEOTUSDT, מדלג
+2025-02-25 14:05:37,165 - MEXC-TradingBot - INFO - בודק סימבול: ZENIXUSDT
+2025-02-25 14:05:37,785 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור ZENIXUSDT
+2025-02-25 14:05:37,789 - MEXC-TradingBot - ERROR - שגיאה בעיבוד נתוני Klines: Integer out of range. at position 7
+2025-02-25 14:05:37,790 - MEXC-TradingBot - WARNING - לא מספיק נתונים עבור ZENIXUSDT, מדלג
+2025-02-25 14:05:37,792 - MEXC-TradingBot - INFO - בודק סימבול: PEPE1USDT
+2025-02-25 14:05:38,410 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור PEPE1USDT
+2025-02-25 14:05:38,421 - MEXC-TradingBot - INFO - PEPE1USDT - ציון: 0, RSI: nan, MACD Hist: 0.000000, Volatility: 0.00%
+2025-02-25 14:05:38,421 - MEXC-TradingBot - INFO - בודק סימבול: GPU1USDT
+2025-02-25 14:05:39,110 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור GPU1USDT
+2025-02-25 14:05:39,125 - MEXC-TradingBot - INFO - GPU1USDT - ציון: 4, RSI: 69.95, MACD Hist: 0.000000, Volatility: 1.54%
+2025-02-25 14:05:39,125 - MEXC-TradingBot - INFO - בודק סימבול: XAI2USDT
+2025-02-25 14:05:39,763 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור XAI2USDT
+2025-02-25 14:05:39,774 - MEXC-TradingBot - INFO - XAI2USDT - ציון: 5, RSI: 48.76, MACD Hist: -0.000000, Volatility: 0.37%
+2025-02-25 14:05:39,775 - MEXC-TradingBot - INFO - בודק סימבול: BABYDOGE2USDT
+2025-02-25 14:05:40,363 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור BABYDOGE2USDT
+2025-02-25 14:05:40,382 - MEXC-TradingBot - INFO - BABYDOGE2USDT - ציון: 4, RSI: 49.38, MACD Hist: -0.000000, Volatility: 0.12%
+2025-02-25 14:05:40,382 - MEXC-TradingBot - INFO - בודק סימבול: TESLAIUSDT
+2025-02-25 14:05:41,000 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור TESLAIUSDT
+2025-02-25 14:05:41,020 - MEXC-TradingBot - INFO - TESLAIUSDT - ציון: 0, RSI: nan, MACD Hist: 0.000000, Volatility: 0.00%
+2025-02-25 14:05:41,020 - MEXC-TradingBot - INFO - בודק סימבול: SONICINUUSDT
+2025-02-25 14:05:41,636 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור SONICINUUSDT
+2025-02-25 14:05:41,649 - MEXC-TradingBot - INFO - SONICINUUSDT - ציון: 0, RSI: 26.26, MACD Hist: -0.000000, Volatility: 0.08%
+2025-02-25 14:05:41,649 - MEXC-TradingBot - INFO - בודק סימבול: FLOKICEOUSDT
+2025-02-25 14:05:42,237 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור FLOKICEOUSDT
+2025-02-25 14:05:42,251 - MEXC-TradingBot - INFO - FLOKICEOUSDT - ציון: 4, RSI: 46.91, MACD Hist: -0.000000, Volatility: 0.64%
+2025-02-25 14:05:42,251 - MEXC-TradingBot - INFO - בודק סימבול: SMILEYUSDT
+2025-02-25 14:05:42,849 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור SMILEYUSDT
+2025-02-25 14:05:42,858 - MEXC-TradingBot - INFO - SMILEYUSDT - ציון: 3, RSI: 55.56, MACD Hist: 0.000000, Volatility: 0.44%
+2025-02-25 14:05:42,858 - MEXC-TradingBot - INFO - בודק סימבול: SHIBAIUSDT
+2025-02-25 14:05:43,390 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור SHIBAIUSDT
+2025-02-25 14:05:43,406 - MEXC-TradingBot - INFO - SHIBAIUSDT - ציון: 3, RSI: 75.89, MACD Hist: 0.000000, Volatility: 0.45%
+2025-02-25 14:05:43,407 - MEXC-TradingBot - INFO - בודק סימבול: GROKAIUSDT
+2025-02-25 14:05:43,977 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור GROKAIUSDT
+2025-02-25 14:05:43,993 - MEXC-TradingBot - INFO - GROKAIUSDT - ציון: 0, RSI: nan, MACD Hist: -0.000000, Volatility: 0.00%
+2025-02-25 14:05:43,993 - MEXC-TradingBot - INFO - בודק סימבול: BABYSORAUSDT
+2025-02-25 14:05:44,605 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור BABYSORAUSDT
+2025-02-25 14:05:44,627 - MEXC-TradingBot - INFO - BABYSORAUSDT - ציון: 0, RSI: nan, MACD Hist: -0.000000, Volatility: 0.00%
+2025-02-25 14:05:44,627 - MEXC-TradingBot - INFO - בודק סימבול: POKEMONUSDT
+2025-02-25 14:05:45,248 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור POKEMONUSDT
+2025-02-25 14:05:45,277 - MEXC-TradingBot - INFO - POKEMONUSDT - ציון: 5, RSI: 32.95, MACD Hist: -0.000000, Volatility: 4.35%
+2025-02-25 14:05:45,277 - MEXC-TradingBot - INFO - בודק סימבול: DOGELONUSDT
+2025-02-25 14:05:45,863 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור DOGELONUSDT
+2025-02-25 14:05:45,880 - MEXC-TradingBot - INFO - DOGELONUSDT - ציון: 0, RSI: nan, MACD Hist: 0.000000, Volatility: 0.00%
+2025-02-25 14:05:45,880 - MEXC-TradingBot - INFO - בודק סימבול: ELONDOGEUSDT
+2025-02-25 14:05:46,467 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור ELONDOGEUSDT
+2025-02-25 14:05:46,488 - MEXC-TradingBot - INFO - ELONDOGEUSDT - ציון: 1, RSI: nan, MACD Hist: -0.000000, Volatility: 0.00%
+2025-02-25 14:05:46,488 - MEXC-TradingBot - INFO - בודק סימבול: ELONMARSUSDT
+2025-02-25 14:05:47,040 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור ELONMARSUSDT
+2025-02-25 14:05:47,054 - MEXC-TradingBot - INFO - ELONMARSUSDT - ציון: 2, RSI: nan, MACD Hist: -0.000000, Volatility: 0.00%
+2025-02-25 14:05:47,054 - MEXC-TradingBot - INFO - בודק סימבול: BABYELONUSDT
+2025-02-25 14:05:47,617 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור BABYELONUSDT
+2025-02-25 14:05:47,649 - MEXC-TradingBot - INFO - BABYELONUSDT - ציון: 2, RSI: nan, MACD Hist: -0.000000, Volatility: 0.00%
+2025-02-25 14:05:47,650 - MEXC-TradingBot - INFO - בודק סימבול: SIMPSONUSDT
+2025-02-25 14:05:48,239 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור SIMPSONUSDT
+2025-02-25 14:05:48,252 - MEXC-TradingBot - INFO - SIMPSONUSDT - ציון: 0, RSI: nan, MACD Hist: 0.000000, Volatility: 0.00%
+2025-02-25 14:05:48,254 - MEXC-TradingBot - INFO - נמצאו 5 סימבולים פוטנציאליים למסחר
+2025-02-25 14:05:48,254 - MEXC-TradingBot - INFO - סימבול פוטנציאלי: XAI2USDT עם ציון 5
+2025-02-25 14:05:48,254 - MEXC-TradingBot - INFO - סימבול פוטנציאלי: POKEMONUSDT עם ציון 5
+2025-02-25 14:05:48,254 - MEXC-TradingBot - INFO - סימבול פוטנציאלי: GPU1USDT עם ציון 4
+2025-02-25 14:05:48,255 - MEXC-TradingBot - INFO - הוספת XAI2USDT לרשימת המעקב
+2025-02-25 14:05:48,255 - MEXC-TradingBot - INFO - הוספת POKEMONUSDT לרשימת המעקב
+2025-02-25 14:05:48,255 - MEXC-TradingBot - INFO - הוספת GPU1USDT לרשימת המעקב
+2025-02-25 14:05:48,255 - MEXC-TradingBot - INFO - הוספת BABYDOGE2USDT לרשימת המעקב
+2025-02-25 14:05:48,255 - MEXC-TradingBot - INFO - הוספת FLOKICEOUSDT לרשימת המעקב
+2025-02-25 14:05:48,255 - MEXC-TradingBot - INFO - סימבולים במעקב: XAI2USDT, POKEMONUSDT, GPU1USDT, BABYDOGE2USDT, FLOKICEOUSDT
+2025-02-25 14:05:48,255 - MEXC-TradingBot - INFO - פוזיציות פתוחות: אין
+2025-02-25 14:05:48,845 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור XAI2USDT
+2025-02-25 14:05:49,462 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור POKEMONUSDT
+2025-02-25 14:05:50,047 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור GPU1USDT
+2025-02-25 14:05:50,583 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור BABYDOGE2USDT
+2025-02-25 14:05:51,133 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור FLOKICEOUSDT
+2025-02-25 14:06:50,421 - MEXC-TradingBot - INFO - עוצר את הבוט...
+2025-02-25 14:06:53,318 - MEXC-TradingBot - INFO - מאתחל בוט מסחר MEXC במצב מסחר אמיתי
+2025-02-25 14:06:53,318 - MEXC-TradingBot - INFO - הגדרות: מקסימום 5 מטבעות למעקב, מקסימום 3 פוזיציות פתוחות במקביל
+2025-02-25 14:06:53,318 - MEXC-TradingBot - INFO - מתחיל להריץ את בוט המסחר...
+2025-02-25 14:06:54,894 - MEXC-TradingBot - INFO - בודק סימבול: STARDUSDT
+2025-02-25 14:06:55,933 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור STARDUSDT
+2025-02-25 14:06:55,936 - MEXC-TradingBot - ERROR - שגיאה בעיבוד נתוני Klines: Integer out of range. at position 4
+2025-02-25 14:06:55,936 - MEXC-TradingBot - WARNING - לא מספיק נתונים עבור STARDUSDT, מדלג
+2025-02-25 14:06:55,937 - MEXC-TradingBot - INFO - בודק סימבול: LEOTUSDT
+2025-02-25 14:06:56,566 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור LEOTUSDT
+2025-02-25 14:06:56,570 - MEXC-TradingBot - ERROR - שגיאה בעיבוד נתוני Klines: Integer out of range. at position 4
+2025-02-25 14:06:56,570 - MEXC-TradingBot - WARNING - לא מספיק נתונים עבור LEOTUSDT, מדלג
+2025-02-25 14:06:56,570 - MEXC-TradingBot - INFO - בודק סימבול: ZENIXUSDT
+2025-02-25 14:06:57,139 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור ZENIXUSDT
+2025-02-25 14:06:57,142 - MEXC-TradingBot - ERROR - שגיאה בעיבוד נתוני Klines: Integer out of range. at position 6
+2025-02-25 14:06:57,143 - MEXC-TradingBot - WARNING - לא מספיק נתונים עבור ZENIXUSDT, מדלג
+2025-02-25 14:06:57,143 - MEXC-TradingBot - INFO - בודק סימבול: PEPE1USDT
+2025-02-25 14:06:57,657 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור PEPE1USDT
+2025-02-25 14:06:57,667 - MEXC-TradingBot - INFO - PEPE1USDT - ציון: 0, RSI: nan, MACD Hist: 0.000000, Volatility: 0.00%
+2025-02-25 14:06:57,667 - MEXC-TradingBot - INFO - בודק סימבול: GPU1USDT
+2025-02-25 14:06:58,633 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור GPU1USDT
+2025-02-25 14:06:58,640 - MEXC-TradingBot - INFO - GPU1USDT - ציון: 4, RSI: 73.48, MACD Hist: 0.000000, Volatility: 1.73%
+2025-02-25 14:06:58,640 - MEXC-TradingBot - INFO - בודק סימבול: XAI2USDT
+2025-02-25 14:06:59,191 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור XAI2USDT
+2025-02-25 14:06:59,200 - MEXC-TradingBot - INFO - XAI2USDT - ציון: 3, RSI: 54.55, MACD Hist: -0.000000, Volatility: 0.39%
+2025-02-25 14:06:59,200 - MEXC-TradingBot - INFO - בודק סימבול: BABYDOGE2USDT
+2025-02-25 14:06:59,917 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור BABYDOGE2USDT
+2025-02-25 14:06:59,925 - MEXC-TradingBot - INFO - BABYDOGE2USDT - ציון: 4, RSI: 46.25, MACD Hist: -0.000000, Volatility: 0.12%
+2025-02-25 14:06:59,925 - MEXC-TradingBot - INFO - בודק סימבול: TESLAIUSDT
+2025-02-25 14:07:00,453 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור TESLAIUSDT
+2025-02-25 14:07:00,460 - MEXC-TradingBot - INFO - TESLAIUSDT - ציון: 0, RSI: nan, MACD Hist: 0.000000, Volatility: 0.00%
+2025-02-25 14:07:00,460 - MEXC-TradingBot - INFO - בודק סימבול: SONICINUUSDT
+2025-02-25 14:07:01,055 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור SONICINUUSDT
+2025-02-25 14:07:01,063 - MEXC-TradingBot - INFO - SONICINUUSDT - ציון: 3, RSI: 33.65, MACD Hist: -0.000000, Volatility: 0.09%
+2025-02-25 14:07:01,063 - MEXC-TradingBot - INFO - בודק סימבול: FLOKICEOUSDT
+2025-02-25 14:07:01,658 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור FLOKICEOUSDT
+2025-02-25 14:07:01,666 - MEXC-TradingBot - INFO - FLOKICEOUSDT - ציון: 2, RSI: 55.84, MACD Hist: 0.000000, Volatility: 0.64%
+2025-02-25 14:07:01,667 - MEXC-TradingBot - INFO - בודק סימבול: SMILEYUSDT
+2025-02-25 14:07:02,267 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור SMILEYUSDT
+2025-02-25 14:07:02,275 - MEXC-TradingBot - INFO - SMILEYUSDT - ציון: 5, RSI: 43.66, MACD Hist: -0.000000, Volatility: 0.44%
+2025-02-25 14:07:02,275 - MEXC-TradingBot - INFO - בודק סימבול: SHIBAIUSDT
+2025-02-25 14:07:02,866 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור SHIBAIUSDT
+2025-02-25 14:07:02,874 - MEXC-TradingBot - INFO - SHIBAIUSDT - ציון: 3, RSI: 73.02, MACD Hist: 0.000000, Volatility: 0.42%
+2025-02-25 14:07:02,874 - MEXC-TradingBot - INFO - בודק סימבול: GROKAIUSDT
+2025-02-25 14:07:03,796 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור GROKAIUSDT
+2025-02-25 14:07:03,805 - MEXC-TradingBot - INFO - GROKAIUSDT - ציון: 0, RSI: nan, MACD Hist: -0.000000, Volatility: 0.00%
+2025-02-25 14:07:03,805 - MEXC-TradingBot - INFO - בודק סימבול: BABYSORAUSDT
+2025-02-25 14:07:04,413 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור BABYSORAUSDT
+2025-02-25 14:07:04,420 - MEXC-TradingBot - INFO - BABYSORAUSDT - ציון: 0, RSI: nan, MACD Hist: -0.000000, Volatility: 0.00%
+2025-02-25 14:07:04,420 - MEXC-TradingBot - INFO - בודק סימבול: POKEMONUSDT
+2025-02-25 14:07:05,048 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור POKEMONUSDT
+2025-02-25 14:07:05,056 - MEXC-TradingBot - INFO - POKEMONUSDT - ציון: 3, RSI: 31.76, MACD Hist: -0.000000, Volatility: 4.57%
+2025-02-25 14:07:05,056 - MEXC-TradingBot - INFO - בודק סימבול: DOGELONUSDT
+2025-02-25 14:07:05,626 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור DOGELONUSDT
+2025-02-25 14:07:05,635 - MEXC-TradingBot - INFO - DOGELONUSDT - ציון: 0, RSI: nan, MACD Hist: 0.000000, Volatility: 0.00%
+2025-02-25 14:07:05,635 - MEXC-TradingBot - INFO - בודק סימבול: ELONDOGEUSDT
+2025-02-25 14:07:06,144 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור ELONDOGEUSDT
+2025-02-25 14:07:06,151 - MEXC-TradingBot - INFO - ELONDOGEUSDT - ציון: 1, RSI: nan, MACD Hist: -0.000000, Volatility: 0.00%
+2025-02-25 14:07:06,151 - MEXC-TradingBot - INFO - בודק סימבול: ELONMARSUSDT
+2025-02-25 14:07:06,685 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור ELONMARSUSDT
+2025-02-25 14:07:06,693 - MEXC-TradingBot - INFO - ELONMARSUSDT - ציון: 2, RSI: nan, MACD Hist: -0.000000, Volatility: 0.00%
+2025-02-25 14:07:06,693 - MEXC-TradingBot - INFO - בודק סימבול: BABYELONUSDT
+2025-02-25 14:07:07,501 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור BABYELONUSDT
+2025-02-25 14:07:07,509 - MEXC-TradingBot - INFO - BABYELONUSDT - ציון: 2, RSI: nan, MACD Hist: -0.000000, Volatility: 0.00%
+2025-02-25 14:07:07,509 - MEXC-TradingBot - INFO - בודק סימבול: SIMPSONUSDT
+2025-02-25 14:07:08,104 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור SIMPSONUSDT
+2025-02-25 14:07:08,113 - MEXC-TradingBot - INFO - SIMPSONUSDT - ציון: 0, RSI: nan, MACD Hist: 0.000000, Volatility: 0.00%
+2025-02-25 14:07:08,113 - MEXC-TradingBot - INFO - נמצאו 3 סימבולים פוטנציאליים למסחר
+2025-02-25 14:07:08,113 - MEXC-TradingBot - INFO - סימבול פוטנציאלי: SMILEYUSDT עם ציון 5
+2025-02-25 14:07:08,114 - MEXC-TradingBot - INFO - סימבול פוטנציאלי: GPU1USDT עם ציון 4
+2025-02-25 14:07:08,114 - MEXC-TradingBot - INFO - סימבול פוטנציאלי: BABYDOGE2USDT עם ציון 4
+2025-02-25 14:07:08,114 - MEXC-TradingBot - INFO - הוספת SMILEYUSDT לרשימת המעקב
+2025-02-25 14:07:08,114 - MEXC-TradingBot - INFO - הוספת GPU1USDT לרשימת המעקב
+2025-02-25 14:07:08,115 - MEXC-TradingBot - INFO - הוספת BABYDOGE2USDT לרשימת המעקב
+2025-02-25 14:07:08,115 - MEXC-TradingBot - INFO - סימבולים במעקב: SMILEYUSDT, GPU1USDT, BABYDOGE2USDT
+2025-02-25 14:07:08,115 - MEXC-TradingBot - INFO - פוזיציות פתוחות: אין
+2025-02-25 14:07:09,008 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור SMILEYUSDT
+2025-02-25 14:07:09,537 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור GPU1USDT
+2025-02-25 14:07:10,149 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור BABYDOGE2USDT
+2025-02-25 14:08:10,826 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור SMILEYUSDT
+2025-02-25 14:08:11,702 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור GPU1USDT
+2025-02-25 14:08:12,338 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור BABYDOGE2USDT
+2025-02-25 14:09:13,135 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור SMILEYUSDT
+2025-02-25 14:09:13,825 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור GPU1USDT
+2025-02-25 14:09:14,418 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור BABYDOGE2USDT
+2025-02-25 14:10:15,791 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור SMILEYUSDT
+2025-02-25 14:10:16,401 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור GPU1USDT
+2025-02-25 14:10:17,940 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור BABYDOGE2USDT
+2025-02-25 14:11:18,590 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור SMILEYUSDT
+2025-02-25 14:11:19,997 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור GPU1USDT
+2025-02-25 14:11:20,640 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור BABYDOGE2USDT
+2025-02-25 14:12:21,733 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור SMILEYUSDT
+2025-02-25 14:12:22,361 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור GPU1USDT
+2025-02-25 14:12:22,968 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור BABYDOGE2USDT
+2025-02-25 14:13:23,611 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור SMILEYUSDT
+2025-02-25 14:13:24,291 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור GPU1USDT
+2025-02-25 14:13:25,065 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור BABYDOGE2USDT
+2025-02-25 14:14:25,697 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור SMILEYUSDT
+2025-02-25 14:14:26,425 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור GPU1USDT
+2025-02-25 14:14:27,060 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור BABYDOGE2USDT
+2025-02-25 14:15:27,888 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור SMILEYUSDT
+2025-02-25 14:15:28,514 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור GPU1USDT
+2025-02-25 14:15:29,170 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור BABYDOGE2USDT
+2025-02-25 14:16:31,276 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור SMILEYUSDT
+2025-02-25 14:16:31,952 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור GPU1USDT
+2025-02-25 14:16:32,576 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור BABYDOGE2USDT
+2025-02-25 14:17:33,330 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור SMILEYUSDT
+2025-02-25 14:17:33,990 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור GPU1USDT
+2025-02-25 14:17:34,627 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור BABYDOGE2USDT
+2025-02-25 14:18:35,466 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור SMILEYUSDT
+2025-02-25 14:18:36,503 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור GPU1USDT
+2025-02-25 14:18:37,259 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור BABYDOGE2USDT
+2025-02-25 14:19:38,027 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור SMILEYUSDT
+2025-02-25 14:19:38,632 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור GPU1USDT
+2025-02-25 14:19:39,263 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור BABYDOGE2USDT
+2025-02-25 14:20:40,007 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור SMILEYUSDT
+2025-02-25 14:20:40,603 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור GPU1USDT
+2025-02-25 14:20:41,526 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור BABYDOGE2USDT
+2025-02-25 14:21:42,131 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור SMILEYUSDT
+2025-02-25 14:21:42,711 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור GPU1USDT
+2025-02-25 14:21:43,288 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור BABYDOGE2USDT
+2025-02-25 14:22:43,902 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור SMILEYUSDT
+2025-02-25 14:22:44,550 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור GPU1USDT
+2025-02-25 14:22:45,343 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור BABYDOGE2USDT
+2025-02-25 14:22:45,366 - MEXC-TradingBot - INFO - סריקת מטבעות חדשים (בוצעה אחרי 15 דקות)
+2025-02-25 14:22:47,198 - MEXC-TradingBot - INFO - בודק סימבול: STARDUSDT
+2025-02-25 14:22:47,840 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור STARDUSDT
+2025-02-25 14:22:47,843 - MEXC-TradingBot - ERROR - שגיאה בעיבוד נתוני Klines: Integer out of range. at position 0
+2025-02-25 14:22:47,843 - MEXC-TradingBot - WARNING - לא מספיק נתונים עבור STARDUSDT, מדלג
+2025-02-25 14:22:47,843 - MEXC-TradingBot - INFO - בודק סימבול: LEOTUSDT
+2025-02-25 14:22:48,411 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור LEOTUSDT
+2025-02-25 14:22:48,414 - MEXC-TradingBot - ERROR - שגיאה בעיבוד נתוני Klines: Integer out of range. at position 8
+2025-02-25 14:22:48,414 - MEXC-TradingBot - WARNING - לא מספיק נתונים עבור LEOTUSDT, מדלג
+2025-02-25 14:22:48,414 - MEXC-TradingBot - INFO - בודק סימבול: ZENIXUSDT
+2025-02-25 14:22:49,332 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור ZENIXUSDT
+2025-02-25 14:22:49,335 - MEXC-TradingBot - ERROR - שגיאה בעיבוד נתוני Klines: Integer out of range. at position 46
+2025-02-25 14:22:49,335 - MEXC-TradingBot - WARNING - לא מספיק נתונים עבור ZENIXUSDT, מדלג
+2025-02-25 14:22:49,336 - MEXC-TradingBot - INFO - בודק סימבול: PEPE1USDT
+2025-02-25 14:22:50,250 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור PEPE1USDT
+2025-02-25 14:22:50,257 - MEXC-TradingBot - INFO - PEPE1USDT - ציון: 0, RSI: nan, MACD Hist: 0.000000, Volatility: 0.00%
+2025-02-25 14:22:50,257 - MEXC-TradingBot - INFO - בודק סימבול: GPU1USDT
+2025-02-25 14:22:50,258 - MEXC-TradingBot - INFO - בודק סימבול: XAI2USDT
+2025-02-25 14:22:50,911 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור XAI2USDT
+2025-02-25 14:22:50,919 - MEXC-TradingBot - INFO - XAI2USDT - ציון: 0, RSI: 63.75, MACD Hist: -0.000000, Volatility: 0.29%
+2025-02-25 14:22:50,919 - MEXC-TradingBot - INFO - בודק סימבול: BABYDOGE2USDT
+2025-02-25 14:22:50,919 - MEXC-TradingBot - INFO - בודק סימבול: TESLAIUSDT
+2025-02-25 14:22:51,557 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור TESLAIUSDT
+2025-02-25 14:22:51,565 - MEXC-TradingBot - INFO - TESLAIUSDT - ציון: 0, RSI: nan, MACD Hist: 0.000000, Volatility: 0.00%
+2025-02-25 14:22:51,566 - MEXC-TradingBot - INFO - בודק סימבול: SONICINUUSDT
+2025-02-25 14:22:52,397 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור SONICINUUSDT
+2025-02-25 14:22:52,404 - MEXC-TradingBot - INFO - SONICINUUSDT - ציון: 2, RSI: 48.80, MACD Hist: 0.000000, Volatility: 0.09%
+2025-02-25 14:22:52,404 - MEXC-TradingBot - INFO - בודק סימבול: FLOKICEOUSDT
+2025-02-25 14:22:53,347 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור FLOKICEOUSDT
+2025-02-25 14:22:53,355 - MEXC-TradingBot - INFO - FLOKICEOUSDT - ציון: 4, RSI: 43.21, MACD Hist: -0.000000, Volatility: 0.60%
+2025-02-25 14:22:53,355 - MEXC-TradingBot - INFO - בודק סימבול: SMILEYUSDT
+2025-02-25 14:22:53,355 - MEXC-TradingBot - INFO - בודק סימבול: SHIBAIUSDT
+2025-02-25 14:22:54,009 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור SHIBAIUSDT
+2025-02-25 14:22:54,018 - MEXC-TradingBot - INFO - SHIBAIUSDT - ציון: 6, RSI: 35.56, MACD Hist: -0.000000, Volatility: 0.33%
+2025-02-25 14:22:54,018 - MEXC-TradingBot - INFO - בודק סימבול: GROKAIUSDT
+2025-02-25 14:22:54,848 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור GROKAIUSDT
+2025-02-25 14:22:54,856 - MEXC-TradingBot - INFO - GROKAIUSDT - ציון: 0, RSI: nan, MACD Hist: -0.000000, Volatility: 0.00%
+2025-02-25 14:22:54,856 - MEXC-TradingBot - INFO - בודק סימבול: BABYSORAUSDT
+2025-02-25 14:22:56,695 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור BABYSORAUSDT
+2025-02-25 14:22:56,709 - MEXC-TradingBot - INFO - BABYSORAUSDT - ציון: 0, RSI: nan, MACD Hist: -0.000000, Volatility: 0.00%
+2025-02-25 14:22:56,709 - MEXC-TradingBot - INFO - בודק סימבול: POKEMONUSDT
+2025-02-25 14:22:57,342 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור POKEMONUSDT
+2025-02-25 14:22:57,360 - MEXC-TradingBot - INFO - POKEMONUSDT - ציון: 7, RSI: 50.00, MACD Hist: 0.000000, Volatility: 1.22%
+2025-02-25 14:22:57,361 - MEXC-TradingBot - INFO - בודק סימבול: DOGELONUSDT
+2025-02-25 14:22:58,049 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור DOGELONUSDT
+2025-02-25 14:22:58,070 - MEXC-TradingBot - INFO - DOGELONUSDT - ציון: 0, RSI: nan, MACD Hist: 0.000000, Volatility: 0.00%
+2025-02-25 14:22:58,071 - MEXC-TradingBot - INFO - בודק סימבול: ELONDOGEUSDT
+2025-02-25 14:22:59,392 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור ELONDOGEUSDT
+2025-02-25 14:22:59,400 - MEXC-TradingBot - INFO - ELONDOGEUSDT - ציון: 0, RSI: nan, MACD Hist: -0.000000, Volatility: 0.00%
+2025-02-25 14:22:59,400 - MEXC-TradingBot - INFO - בודק סימבול: ELONMARSUSDT
+2025-02-25 14:23:00,003 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור ELONMARSUSDT
+2025-02-25 14:23:00,066 - MEXC-TradingBot - INFO - ELONMARSUSDT - ציון: 0, RSI: nan, MACD Hist: -0.000000, Volatility: 0.00%
+2025-02-25 14:23:00,066 - MEXC-TradingBot - INFO - בודק סימבול: SIMPSONUSDT
+2025-02-25 14:23:00,993 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור SIMPSONUSDT
+2025-02-25 14:23:01,001 - MEXC-TradingBot - INFO - SIMPSONUSDT - ציון: 2, RSI: 100.00, MACD Hist: 0.000000, Volatility: 0.18%
+2025-02-25 14:23:01,001 - MEXC-TradingBot - INFO - בודק סימבול: TRUMP1USDT
+2025-02-25 14:23:01,924 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור TRUMP1USDT
+2025-02-25 14:23:01,932 - MEXC-TradingBot - INFO - TRUMP1USDT - ציון: 0, RSI: nan, MACD Hist: 0.000000, Volatility: 0.00%
+2025-02-25 14:23:01,932 - MEXC-TradingBot - INFO - נמצאו 3 סימבולים פוטנציאליים למסחר
+2025-02-25 14:23:01,932 - MEXC-TradingBot - INFO - סימבול פוטנציאלי: POKEMONUSDT עם ציון 7
+2025-02-25 14:23:01,932 - MEXC-TradingBot - INFO - סימבול פוטנציאלי: SHIBAIUSDT עם ציון 6
+2025-02-25 14:23:01,932 - MEXC-TradingBot - INFO - סימבול פוטנציאלי: FLOKICEOUSDT עם ציון 4
+2025-02-25 14:23:01,933 - MEXC-TradingBot - INFO - הוספת POKEMONUSDT לרשימת המעקב
+2025-02-25 14:23:01,933 - MEXC-TradingBot - INFO - הוספת SHIBAIUSDT לרשימת המעקב
+2025-02-25 14:23:01,933 - MEXC-TradingBot - INFO - סימבולים במעקב: SMILEYUSDT, GPU1USDT, BABYDOGE2USDT, POKEMONUSDT, SHIBAIUSDT
+2025-02-25 14:23:01,933 - MEXC-TradingBot - INFO - פוזיציות פתוחות: אין
+2025-02-25 14:24:02,644 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור SMILEYUSDT
+2025-02-25 14:24:03,550 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור GPU1USDT
+2025-02-25 14:24:04,145 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור BABYDOGE2USDT
+2025-02-25 14:24:04,700 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור POKEMONUSDT
+2025-02-25 14:24:05,502 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור SHIBAIUSDT
+2025-02-25 14:25:06,175 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור SMILEYUSDT
+2025-02-25 14:25:06,832 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור GPU1USDT
+2025-02-25 14:25:07,547 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור BABYDOGE2USDT
+2025-02-25 14:25:08,417 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור POKEMONUSDT
+2025-02-25 14:25:08,997 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור SHIBAIUSDT
+2025-02-25 14:26:09,633 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור SMILEYUSDT
+2025-02-25 14:26:10,563 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור GPU1USDT
+2025-02-25 14:26:11,166 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור BABYDOGE2USDT
+2025-02-25 14:26:12,070 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור POKEMONUSDT
+2025-02-25 14:26:12,622 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור SHIBAIUSDT
+2025-02-25 14:27:13,513 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור SMILEYUSDT
+2025-02-25 14:27:14,146 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור GPU1USDT
+2025-02-25 14:27:14,740 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור BABYDOGE2USDT
+2025-02-25 14:27:15,551 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור POKEMONUSDT
+2025-02-25 14:27:16,151 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור SHIBAIUSDT
+2025-02-25 14:28:16,928 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור SMILEYUSDT
+2025-02-25 14:28:17,723 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור GPU1USDT
+2025-02-25 14:28:18,354 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור BABYDOGE2USDT
+2025-02-25 14:28:19,275 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור POKEMONUSDT
+2025-02-25 14:28:19,979 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור SHIBAIUSDT
+2025-02-25 14:29:20,753 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור SMILEYUSDT
+2025-02-25 14:29:21,595 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור GPU1USDT
+2025-02-25 14:29:22,547 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור BABYDOGE2USDT
+2025-02-25 14:29:23,182 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור POKEMONUSDT
+2025-02-25 14:29:23,780 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור SHIBAIUSDT
+2025-02-25 14:30:24,893 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור SMILEYUSDT
+2025-02-25 14:30:25,830 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור GPU1USDT
+2025-02-25 14:30:26,749 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור BABYDOGE2USDT
+2025-02-25 14:30:27,333 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור POKEMONUSDT
+2025-02-25 14:30:27,894 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור SHIBAIUSDT
+2025-02-25 14:31:28,719 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור SMILEYUSDT
+2025-02-25 14:31:29,276 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור GPU1USDT
+2025-02-25 14:31:29,866 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור BABYDOGE2USDT
+2025-02-25 14:31:30,432 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור POKEMONUSDT
+2025-02-25 14:31:31,009 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור SHIBAIUSDT
+2025-02-25 14:32:31,818 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור SMILEYUSDT
+2025-02-25 14:32:32,397 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור GPU1USDT
+2025-02-25 14:32:33,021 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור BABYDOGE2USDT
+2025-02-25 14:32:33,619 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור POKEMONUSDT
+2025-02-25 14:32:34,280 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור SHIBAIUSDT
+2025-02-25 14:33:35,122 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור SMILEYUSDT
+2025-02-25 14:33:35,766 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור GPU1USDT
+2025-02-25 14:33:36,403 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור BABYDOGE2USDT
+2025-02-25 14:33:36,989 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור POKEMONUSDT
+2025-02-25 14:33:37,635 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור SHIBAIUSDT
+2025-02-25 14:34:38,301 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור SMILEYUSDT
+2025-02-25 14:34:38,897 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור GPU1USDT
+2025-02-25 14:34:39,481 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור BABYDOGE2USDT
+2025-02-25 14:34:40,514 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור POKEMONUSDT
+2025-02-25 14:34:41,120 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור SHIBAIUSDT
+2025-02-25 14:35:41,737 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור SMILEYUSDT
+2025-02-25 14:35:42,348 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור GPU1USDT
+2025-02-25 14:35:43,041 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור BABYDOGE2USDT
+2025-02-25 14:35:43,599 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור POKEMONUSDT
+2025-02-25 14:35:44,153 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור SHIBAIUSDT
+2025-02-25 14:36:44,932 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור SMILEYUSDT
+2025-02-25 14:36:45,837 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור GPU1USDT
+2025-02-25 14:36:46,472 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור BABYDOGE2USDT
+2025-02-25 14:36:47,091 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור POKEMONUSDT
+2025-02-25 14:36:48,005 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור SHIBAIUSDT
+2025-02-25 14:37:57,648 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור SMILEYUSDT
+2025-02-25 14:37:58,392 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור GPU1USDT
+2025-02-25 14:37:58,957 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור BABYDOGE2USDT
+2025-02-25 14:37:59,605 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור POKEMONUSDT
+2025-02-25 14:38:00,169 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור SHIBAIUSDT
+2025-02-25 14:38:00,177 - MEXC-TradingBot - INFO - סריקת מטבעות חדשים (בוצעה אחרי 15 דקות)
+2025-02-25 14:38:00,177 - MEXC-TradingBot - INFO - סימבולים במעקב: SMILEYUSDT, GPU1USDT, BABYDOGE2USDT, POKEMONUSDT, SHIBAIUSDT
+2025-02-25 14:38:00,177 - MEXC-TradingBot - INFO - פוזיציות פתוחות: אין
+2025-02-25 15:33:59,601 - MEXC-TradingBot - ERROR - שגיאה בשליחת בקשה: HTTPSConnectionPool(host='api.mexc.com', port=443): Max retries exceeded with url: /api/v3/klines?symbol=SMILEYUSDT&interval=1m&limit=60 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x11f8963a0>: Failed to resolve 'api.mexc.com' ([Errno 8] nodename nor servname provided, or not known)"))
+2025-02-25 15:33:59,602 - MEXC-TradingBot - WARNING - לא ניתן לקבל מספיק נתונים עבור SMILEYUSDT
+2025-02-25 15:33:59,608 - MEXC-TradingBot - ERROR - שגיאה בשליחת בקשה: HTTPSConnectionPool(host='api.mexc.com', port=443): Max retries exceeded with url: /api/v3/klines?symbol=GPU1USDT&interval=1m&limit=60 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x11fbf5040>: Failed to resolve 'api.mexc.com' ([Errno 8] nodename nor servname provided, or not known)"))
+2025-02-25 15:33:59,608 - MEXC-TradingBot - WARNING - לא ניתן לקבל מספיק נתונים עבור GPU1USDT
+2025-02-25 15:33:59,614 - MEXC-TradingBot - ERROR - שגיאה בשליחת בקשה: HTTPSConnectionPool(host='api.mexc.com', port=443): Max retries exceeded with url: /api/v3/klines?symbol=BABYDOGE2USDT&interval=1m&limit=60 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x11fbf59a0>: Failed to resolve 'api.mexc.com' ([Errno 8] nodename nor servname provided, or not known)"))
+2025-02-25 15:33:59,615 - MEXC-TradingBot - WARNING - לא ניתן לקבל מספיק נתונים עבור BABYDOGE2USDT
+2025-02-25 15:33:59,622 - MEXC-TradingBot - ERROR - שגיאה בשליחת בקשה: HTTPSConnectionPool(host='api.mexc.com', port=443): Max retries exceeded with url: /api/v3/klines?symbol=POKEMONUSDT&interval=1m&limit=60 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x11fbf7340>: Failed to resolve 'api.mexc.com' ([Errno 8] nodename nor servname provided, or not known)"))
+2025-02-25 15:33:59,622 - MEXC-TradingBot - WARNING - לא ניתן לקבל מספיק נתונים עבור POKEMONUSDT
+2025-02-25 15:33:59,630 - MEXC-TradingBot - ERROR - שגיאה בשליחת בקשה: HTTPSConnectionPool(host='api.mexc.com', port=443): Max retries exceeded with url: /api/v3/klines?symbol=SHIBAIUSDT&interval=1m&limit=60 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x11fbf5940>: Failed to resolve 'api.mexc.com' ([Errno 8] nodename nor servname provided, or not known)"))
+2025-02-25 15:33:59,630 - MEXC-TradingBot - WARNING - לא ניתן לקבל מספיק נתונים עבור SHIBAIUSDT
+2025-02-25 15:33:59,631 - MEXC-TradingBot - INFO - סריקת מטבעות חדשים (בוצעה אחרי 55 דקות)
+2025-02-25 15:33:59,631 - MEXC-TradingBot - INFO - סימבולים במעקב: SMILEYUSDT, GPU1USDT, BABYDOGE2USDT, POKEMONUSDT, SHIBAIUSDT
+2025-02-25 15:33:59,631 - MEXC-TradingBot - INFO - פוזיציות פתוחות: אין
+2025-02-25 16:18:43,100 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור SMILEYUSDT
+2025-02-25 16:18:43,763 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור GPU1USDT
+2025-02-25 16:18:44,134 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור BABYDOGE2USDT
+2025-02-25 16:18:44,530 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור POKEMONUSDT
+2025-02-25 16:18:44,891 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור SHIBAIUSDT
+2025-02-25 16:18:44,913 - MEXC-TradingBot - INFO - סריקת מטבעות חדשים (בוצעה אחרי 44 דקות)
+2025-02-25 16:18:44,913 - MEXC-TradingBot - INFO - סימבולים במעקב: SMILEYUSDT, GPU1USDT, BABYDOGE2USDT, POKEMONUSDT, SHIBAIUSDT
+2025-02-25 16:18:44,914 - MEXC-TradingBot - INFO - פוזיציות פתוחות: אין
+2025-02-25 16:37:47,669 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור SMILEYUSDT
+2025-02-25 16:37:48,559 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור GPU1USDT
+2025-02-25 16:37:49,028 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור BABYDOGE2USDT
+2025-02-25 18:37:52,663 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור POKEMONUSDT
+2025-02-25 18:37:52,909 - MEXC-TradingBot - ERROR - שגיאה בשליחת בקשה: HTTPSConnectionPool(host='api.mexc.com', port=443): Max retries exceeded with url: /api/v3/klines?symbol=SHIBAIUSDT&interval=1m&limit=60 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x11f8969d0>: Failed to resolve 'api.mexc.com' ([Errno 8] nodename nor servname provided, or not known)"))
+2025-02-25 18:37:52,909 - MEXC-TradingBot - WARNING - לא ניתן לקבל מספיק נתונים עבור SHIBAIUSDT
+2025-02-25 18:37:52,910 - MEXC-TradingBot - INFO - סריקת מטבעות חדשים (בוצעה אחרי 139 דקות)
+2025-02-25 18:37:52,910 - MEXC-TradingBot - INFO - סימבולים במעקב: SMILEYUSDT, GPU1USDT, BABYDOGE2USDT, POKEMONUSDT, SHIBAIUSDT
+2025-02-25 18:37:52,910 - MEXC-TradingBot - INFO - פוזיציות פתוחות: אין
+2025-02-25 22:20:49,602 - MEXC-TradingBot - ERROR - שגיאה בשליחת בקשה: HTTPSConnectionPool(host='api.mexc.com', port=443): Max retries exceeded with url: /api/v3/klines?symbol=SMILEYUSDT&interval=1m&limit=60 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x11f896b80>: Failed to resolve 'api.mexc.com' ([Errno 8] nodename nor servname provided, or not known)"))
+2025-02-25 22:20:49,603 - MEXC-TradingBot - WARNING - לא ניתן לקבל מספיק נתונים עבור SMILEYUSDT
+2025-02-25 22:20:49,606 - MEXC-TradingBot - ERROR - שגיאה בשליחת בקשה: HTTPSConnectionPool(host='api.mexc.com', port=443): Max retries exceeded with url: /api/v3/klines?symbol=GPU1USDT&interval=1m&limit=60 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x11fbf7160>: Failed to resolve 'api.mexc.com' ([Errno 8] nodename nor servname provided, or not known)"))
+2025-02-25 22:20:49,607 - MEXC-TradingBot - WARNING - לא ניתן לקבל מספיק נתונים עבור GPU1USDT
+2025-02-25 22:20:49,614 - MEXC-TradingBot - ERROR - שגיאה בשליחת בקשה: HTTPSConnectionPool(host='api.mexc.com', port=443): Max retries exceeded with url: /api/v3/klines?symbol=BABYDOGE2USDT&interval=1m&limit=60 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x11fbf7d30>: Failed to resolve 'api.mexc.com' ([Errno 8] nodename nor servname provided, or not known)"))
+2025-02-25 22:20:49,615 - MEXC-TradingBot - WARNING - לא ניתן לקבל מספיק נתונים עבור BABYDOGE2USDT
+2025-02-25 22:20:49,621 - MEXC-TradingBot - ERROR - שגיאה בשליחת בקשה: HTTPSConnectionPool(host='api.mexc.com', port=443): Max retries exceeded with url: /api/v3/klines?symbol=POKEMONUSDT&interval=1m&limit=60 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x11f84d2b0>: Failed to resolve 'api.mexc.com' ([Errno 8] nodename nor servname provided, or not known)"))
+2025-02-25 22:20:49,621 - MEXC-TradingBot - WARNING - לא ניתן לקבל מספיק נתונים עבור POKEMONUSDT
+2025-02-25 22:20:49,623 - MEXC-TradingBot - ERROR - שגיאה בשליחת בקשה: HTTPSConnectionPool(host='api.mexc.com', port=443): Max retries exceeded with url: /api/v3/klines?symbol=SHIBAIUSDT&interval=1m&limit=60 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x11f896ca0>: Failed to resolve 'api.mexc.com' ([Errno 8] nodename nor servname provided, or not known)"))
+2025-02-25 22:20:49,624 - MEXC-TradingBot - WARNING - לא ניתן לקבל מספיק נתונים עבור SHIBAIUSDT
+2025-02-25 22:20:49,624 - MEXC-TradingBot - INFO - סריקת מטבעות חדשים (בוצעה אחרי 222 דקות)
+2025-02-25 22:20:49,624 - MEXC-TradingBot - INFO - סימבולים במעקב: SMILEYUSDT, GPU1USDT, BABYDOGE2USDT, POKEMONUSDT, SHIBAIUSDT
+2025-02-25 22:20:49,624 - MEXC-TradingBot - INFO - פוזיציות פתוחות: אין
+2025-02-25 22:21:09,416 - MEXC-TradingBot - INFO - עוצר את הבוט...
+2025-02-25 22:21:12,495 - MEXC-TradingBot - INFO - מאתחל בוט מסחר MEXC במצב מסחר אמיתי
+2025-02-25 22:21:12,496 - MEXC-TradingBot - INFO - הגדרות: מקסימום 5 מטבעות למעקב, מקסימום 3 פוזיציות פתוחות במקביל
+2025-02-25 22:21:12,496 - MEXC-TradingBot - INFO - מתחיל להריץ את בוט המסחר...
+2025-02-25 22:21:15,040 - MEXC-TradingBot - INFO - בודק סימבול: LEOTUSDT
+2025-02-25 22:21:16,158 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור LEOTUSDT
+2025-02-25 22:21:16,188 - MEXC-TradingBot - ERROR - שגיאה בעיבוד נתוני Klines: Integer out of range. at position 13
+2025-02-25 22:21:16,189 - MEXC-TradingBot - WARNING - לא מספיק נתונים עבור LEOTUSDT, מדלג
+2025-02-25 22:21:16,189 - MEXC-TradingBot - INFO - בודק סימבול: STARDUSDT
+2025-02-25 22:21:16,649 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור STARDUSDT
+2025-02-25 22:21:16,651 - MEXC-TradingBot - ERROR - שגיאה בעיבוד נתוני Klines: Integer out of range. at position 8
+2025-02-25 22:21:16,651 - MEXC-TradingBot - WARNING - לא מספיק נתונים עבור STARDUSDT, מדלג
+2025-02-25 22:21:16,651 - MEXC-TradingBot - INFO - בודק סימבול: ZENIXUSDT
+2025-02-25 22:21:17,072 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור ZENIXUSDT
+2025-02-25 22:21:17,075 - MEXC-TradingBot - ERROR - שגיאה בעיבוד נתוני Klines: Integer out of range. at position 24
+2025-02-25 22:21:17,075 - MEXC-TradingBot - WARNING - לא מספיק נתונים עבור ZENIXUSDT, מדלג
+2025-02-25 22:21:17,075 - MEXC-TradingBot - INFO - בודק סימבול: PEPE1USDT
+2025-02-25 22:21:19,787 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור PEPE1USDT
+2025-02-25 22:21:19,831 - MEXC-TradingBot - INFO - PEPE1USDT - ציון: 0, RSI: nan, MACD Hist: -0.000000, Volatility: 0.00%
+2025-02-25 22:21:19,831 - MEXC-TradingBot - INFO - בודק סימבול: XAI2USDT
+2025-02-25 22:21:20,396 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור XAI2USDT
+2025-02-25 22:21:20,407 - MEXC-TradingBot - INFO - XAI2USDT - ציון: 3, RSI: 46.24, MACD Hist: 0.000000, Volatility: 0.39%
+2025-02-25 22:21:20,408 - MEXC-TradingBot - INFO - בודק סימבול: BABYDOGE2USDT
+2025-02-25 22:21:23,950 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור BABYDOGE2USDT
+2025-02-25 22:21:23,961 - MEXC-TradingBot - INFO - BABYDOGE2USDT - ציון: 5, RSI: 43.40, MACD Hist: 0.000000, Volatility: 0.16%
+2025-02-25 22:21:23,962 - MEXC-TradingBot - INFO - בודק סימבול: TESLAIUSDT
+2025-02-25 22:21:25,524 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור TESLAIUSDT
+2025-02-25 22:21:25,545 - MEXC-TradingBot - INFO - TESLAIUSDT - ציון: 0, RSI: nan, MACD Hist: 0.000000, Volatility: 0.00%
+2025-02-25 22:21:25,545 - MEXC-TradingBot - INFO - בודק סימבול: SONICINUUSDT
+2025-02-25 22:21:26,058 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור SONICINUUSDT
+2025-02-25 22:21:26,066 - MEXC-TradingBot - INFO - SONICINUUSDT - ציון: 0, RSI: 53.85, MACD Hist: -0.000000, Volatility: 0.01%
+2025-02-25 22:21:26,066 - MEXC-TradingBot - INFO - בודק סימבול: FLOKICEOUSDT
+2025-02-25 22:21:26,491 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור FLOKICEOUSDT
+2025-02-25 22:21:26,498 - MEXC-TradingBot - INFO - FLOKICEOUSDT - ציון: 5, RSI: 48.75, MACD Hist: -0.000000, Volatility: 0.58%
+2025-02-25 22:21:26,498 - MEXC-TradingBot - INFO - בודק סימבול: SMILEYUSDT
+2025-02-25 22:21:26,975 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור SMILEYUSDT
+2025-02-25 22:21:26,984 - MEXC-TradingBot - INFO - SMILEYUSDT - ציון: 2, RSI: 53.23, MACD Hist: -0.000000, Volatility: 0.32%
+2025-02-25 22:21:26,984 - MEXC-TradingBot - INFO - בודק סימבול: SHIBAIUSDT
+2025-02-25 22:21:27,424 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור SHIBAIUSDT
+2025-02-25 22:21:27,432 - MEXC-TradingBot - INFO - SHIBAIUSDT - ציון: 4, RSI: 54.29, MACD Hist: 0.000000, Volatility: 0.14%
+2025-02-25 22:21:27,433 - MEXC-TradingBot - INFO - בודק סימבול: GPU1USDT
+2025-02-25 22:21:27,892 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור GPU1USDT
+2025-02-25 22:21:27,900 - MEXC-TradingBot - INFO - GPU1USDT - ציון: 5, RSI: 43.18, MACD Hist: 0.000000, Volatility: 0.40%
+2025-02-25 22:21:27,900 - MEXC-TradingBot - INFO - בודק סימבול: POKEMONUSDT
+2025-02-25 22:21:28,389 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור POKEMONUSDT
+2025-02-25 22:21:28,395 - MEXC-TradingBot - INFO - POKEMONUSDT - ציון: 4, RSI: 50.00, MACD Hist: 0.000000, Volatility: 0.42%
+2025-02-25 22:21:28,395 - MEXC-TradingBot - INFO - בודק סימבול: GROKAIUSDT
+2025-02-25 22:21:28,834 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור GROKAIUSDT
+2025-02-25 22:21:28,841 - MEXC-TradingBot - INFO - GROKAIUSDT - ציון: 0, RSI: nan, MACD Hist: -0.000000, Volatility: 0.00%
+2025-02-25 22:21:28,842 - MEXC-TradingBot - INFO - בודק סימבול: BABYSORAUSDT
+2025-02-25 22:21:29,288 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור BABYSORAUSDT
+2025-02-25 22:21:29,299 - MEXC-TradingBot - INFO - BABYSORAUSDT - ציון: 0, RSI: nan, MACD Hist: 0.000000, Volatility: 0.00%
+2025-02-25 22:21:29,300 - MEXC-TradingBot - INFO - בודק סימבול: ELONDOGEUSDT
+2025-02-25 22:21:29,783 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור ELONDOGEUSDT
+2025-02-25 22:21:29,791 - MEXC-TradingBot - INFO - ELONDOGEUSDT - ציון: 0, RSI: nan, MACD Hist: 0.000000, Volatility: 0.00%
+2025-02-25 22:21:29,791 - MEXC-TradingBot - INFO - בודק סימבול: DOGELONUSDT
+2025-02-25 22:21:30,262 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור DOGELONUSDT
+2025-02-25 22:21:30,276 - MEXC-TradingBot - INFO - DOGELONUSDT - ציון: 0, RSI: nan, MACD Hist: 0.000000, Volatility: 0.00%
+2025-02-25 22:21:30,276 - MEXC-TradingBot - INFO - בודק סימבול: X1USDT
+2025-02-25 22:21:30,808 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור X1USDT
+2025-02-25 22:21:30,823 - MEXC-TradingBot - INFO - X1USDT - ציון: 2, RSI: 52.38, MACD Hist: -0.000000, Volatility: 0.34%
+2025-02-25 22:21:30,823 - MEXC-TradingBot - INFO - בודק סימבול: SIMPSONUSDT
+2025-02-25 22:21:31,289 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור SIMPSONUSDT
+2025-02-25 22:21:31,311 - MEXC-TradingBot - INFO - SIMPSONUSDT - ציון: 0, RSI: nan, MACD Hist: 0.000000, Volatility: 0.00%
+2025-02-25 22:21:31,312 - MEXC-TradingBot - INFO - בודק סימבול: PEPEAIUSDT
+2025-02-25 22:21:31,834 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור PEPEAIUSDT
+2025-02-25 22:21:31,880 - MEXC-TradingBot - INFO - PEPEAIUSDT - ציון: 0, RSI: nan, MACD Hist: 0.000000, Volatility: 0.00%
+2025-02-25 22:21:31,882 - MEXC-TradingBot - INFO - נמצאו 5 סימבולים פוטנציאליים למסחר
+2025-02-25 22:21:31,882 - MEXC-TradingBot - INFO - סימבול פוטנציאלי: BABYDOGE2USDT עם ציון 5
+2025-02-25 22:21:31,883 - MEXC-TradingBot - INFO - סימבול פוטנציאלי: FLOKICEOUSDT עם ציון 5
+2025-02-25 22:21:31,883 - MEXC-TradingBot - INFO - סימבול פוטנציאלי: GPU1USDT עם ציון 5
+2025-02-25 22:21:31,883 - MEXC-TradingBot - INFO - הוספת BABYDOGE2USDT לרשימת המעקב
+2025-02-25 22:21:31,883 - MEXC-TradingBot - INFO - הוספת FLOKICEOUSDT לרשימת המעקב
+2025-02-25 22:21:31,884 - MEXC-TradingBot - INFO - הוספת GPU1USDT לרשימת המעקב
+2025-02-25 22:21:31,884 - MEXC-TradingBot - INFO - הוספת SHIBAIUSDT לרשימת המעקב
+2025-02-25 22:21:31,884 - MEXC-TradingBot - INFO - הוספת POKEMONUSDT לרשימת המעקב
+2025-02-25 22:21:31,884 - MEXC-TradingBot - INFO - סימבולים במעקב: BABYDOGE2USDT, FLOKICEOUSDT, GPU1USDT, SHIBAIUSDT, POKEMONUSDT
+2025-02-25 22:21:31,884 - MEXC-TradingBot - INFO - פוזיציות פתוחות: אין
+2025-02-25 22:21:32,473 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור BABYDOGE2USDT
+2025-02-25 22:21:33,277 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור FLOKICEOUSDT
+2025-02-25 22:21:34,245 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור GPU1USDT
+2025-02-25 22:21:34,878 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור SHIBAIUSDT
+2025-02-25 22:21:35,769 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור POKEMONUSDT
+2025-02-25 22:22:36,327 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור BABYDOGE2USDT
+2025-02-25 22:22:36,896 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור FLOKICEOUSDT
+2025-02-25 22:22:37,344 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור GPU1USDT
+2025-02-25 22:22:37,858 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור SHIBAIUSDT
+2025-02-25 22:22:38,316 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור POKEMONUSDT
+2025-02-25 22:23:38,871 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור BABYDOGE2USDT
+2025-02-25 22:23:39,972 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור FLOKICEOUSDT
+2025-02-25 22:23:41,007 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור GPU1USDT
+2025-02-25 22:23:42,088 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור SHIBAIUSDT
+2025-02-25 22:23:42,544 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור POKEMONUSDT
+2025-02-25 22:24:43,154 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור BABYDOGE2USDT
+2025-02-25 22:24:43,791 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור FLOKICEOUSDT
+2025-02-25 22:24:44,218 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור GPU1USDT
+2025-02-25 22:24:44,645 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור SHIBAIUSDT
+2025-02-25 22:24:45,083 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור POKEMONUSDT
+2025-02-25 22:43:40,775 - MEXC-TradingBot - ERROR - שגיאה בשליחת בקשה: HTTPSConnectionPool(host='api.mexc.com', port=443): Max retries exceeded with url: /api/v3/klines?symbol=BABYDOGE2USDT&interval=1m&limit=60 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x117133880>: Failed to resolve 'api.mexc.com' ([Errno 8] nodename nor servname provided, or not known)"))
+2025-02-25 22:43:40,777 - MEXC-TradingBot - WARNING - לא ניתן לקבל מספיק נתונים עבור BABYDOGE2USDT
+2025-02-25 22:43:40,832 - MEXC-TradingBot - ERROR - שגיאה בשליחת בקשה: HTTPSConnectionPool(host='api.mexc.com', port=443): Max retries exceeded with url: /api/v3/klines?symbol=FLOKICEOUSDT&interval=1m&limit=60 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x117133d60>: Failed to resolve 'api.mexc.com' ([Errno 8] nodename nor servname provided, or not known)"))
+2025-02-25 22:43:40,835 - MEXC-TradingBot - WARNING - לא ניתן לקבל מספיק נתונים עבור FLOKICEOUSDT
+2025-02-25 22:43:40,852 - MEXC-TradingBot - ERROR - שגיאה בשליחת בקשה: HTTPSConnectionPool(host='api.mexc.com', port=443): Max retries exceeded with url: /api/v3/klines?symbol=GPU1USDT&interval=1m&limit=60 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x117735700>: Failed to resolve 'api.mexc.com' ([Errno 8] nodename nor servname provided, or not known)"))
+2025-02-25 22:43:40,853 - MEXC-TradingBot - WARNING - לא ניתן לקבל מספיק נתונים עבור GPU1USDT
+2025-02-25 22:43:40,987 - MEXC-TradingBot - ERROR - שגיאה בשליחת בקשה: HTTPSConnectionPool(host='api.mexc.com', port=443): Max retries exceeded with url: /api/v3/klines?symbol=SHIBAIUSDT&interval=1m&limit=60 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x117133c40>: Failed to resolve 'api.mexc.com' ([Errno 8] nodename nor servname provided, or not known)"))
+2025-02-25 22:43:40,990 - MEXC-TradingBot - WARNING - לא ניתן לקבל מספיק נתונים עבור SHIBAIUSDT
+2025-02-25 22:43:40,997 - MEXC-TradingBot - ERROR - שגיאה בשליחת בקשה: HTTPSConnectionPool(host='api.mexc.com', port=443): Max retries exceeded with url: /api/v3/klines?symbol=POKEMONUSDT&interval=1m&limit=60 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x1170ea430>: Failed to resolve 'api.mexc.com' ([Errno 8] nodename nor servname provided, or not known)"))
+2025-02-25 22:43:40,997 - MEXC-TradingBot - WARNING - לא ניתן לקבל מספיק נתונים עבור POKEMONUSDT
+2025-02-25 22:43:40,997 - MEXC-TradingBot - INFO - סריקת מטבעות חדשים (בוצעה אחרי 22 דקות)
+2025-02-25 22:43:40,998 - MEXC-TradingBot - INFO - סימבולים במעקב: BABYDOGE2USDT, FLOKICEOUSDT, GPU1USDT, SHIBAIUSDT, POKEMONUSDT
+2025-02-25 22:43:40,998 - MEXC-TradingBot - INFO - פוזיציות פתוחות: אין
+2025-02-25 22:44:41,969 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור BABYDOGE2USDT
+2025-02-25 22:44:42,480 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור FLOKICEOUSDT
+2025-02-25 22:44:42,929 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור GPU1USDT
+2025-02-25 22:44:43,366 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור SHIBAIUSDT
+2025-02-25 22:44:43,818 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור POKEMONUSDT
+2025-02-25 22:45:45,641 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור BABYDOGE2USDT
+2025-02-25 22:45:46,182 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור FLOKICEOUSDT
+2025-02-25 22:45:46,652 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור GPU1USDT
+2025-02-25 22:45:47,655 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור SHIBAIUSDT
+2025-02-25 22:45:48,109 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור POKEMONUSDT
+2025-02-25 22:46:48,719 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור BABYDOGE2USDT
+2025-02-25 22:46:49,209 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור FLOKICEOUSDT
+2025-02-25 22:46:49,684 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור GPU1USDT
+2025-02-25 22:46:50,633 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור SHIBAIUSDT
+2025-02-25 22:46:51,272 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור POKEMONUSDT
+2025-02-25 22:47:51,812 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור BABYDOGE2USDT
+2025-02-25 22:47:52,293 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור FLOKICEOUSDT
+2025-02-25 22:47:52,760 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור GPU1USDT
+2025-02-25 22:47:53,249 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור SHIBAIUSDT
+2025-02-25 22:47:54,037 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור POKEMONUSDT
+2025-02-25 22:48:54,646 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור BABYDOGE2USDT
+2025-02-25 22:48:55,120 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור FLOKICEOUSDT
+2025-02-25 22:48:55,598 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור GPU1USDT
+2025-02-25 22:48:56,071 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור SHIBAIUSDT
+2025-02-25 22:48:57,178 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור POKEMONUSDT
+2025-02-25 22:49:57,740 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור BABYDOGE2USDT
+2025-02-25 22:49:58,423 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור FLOKICEOUSDT
+2025-02-25 22:49:58,906 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור GPU1USDT
+2025-02-25 22:49:59,376 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור SHIBAIUSDT
+2025-02-25 22:49:59,827 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור POKEMONUSDT
+2025-02-25 22:51:00,359 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור BABYDOGE2USDT
+2025-02-25 22:51:01,379 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור FLOKICEOUSDT
+2025-02-25 22:51:01,862 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור GPU1USDT
+2025-02-25 22:51:02,495 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור SHIBAIUSDT
+2025-02-25 22:51:02,967 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור POKEMONUSDT
+2025-02-25 22:52:03,532 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור BABYDOGE2USDT
+2025-02-25 22:52:04,657 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור FLOKICEOUSDT
+2025-02-25 22:52:05,192 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור GPU1USDT
+2025-02-25 22:52:05,667 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור SHIBAIUSDT
+2025-02-25 22:52:06,295 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור POKEMONUSDT
+2025-02-25 22:53:06,895 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור BABYDOGE2USDT
+2025-02-25 22:53:07,353 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור FLOKICEOUSDT
+2025-02-25 22:53:07,846 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור GPU1USDT
+2025-02-25 22:53:08,331 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור SHIBAIUSDT
+2025-02-25 22:53:08,900 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור POKEMONUSDT
+2025-02-25 22:54:09,412 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור BABYDOGE2USDT
+2025-02-25 22:54:10,029 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור FLOKICEOUSDT
+2025-02-25 22:54:10,485 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור GPU1USDT
+2025-02-25 22:54:10,979 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור SHIBAIUSDT
+2025-02-25 22:54:11,433 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור POKEMONUSDT
+2025-02-25 22:55:11,970 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור BABYDOGE2USDT
+2025-02-25 22:55:12,429 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור FLOKICEOUSDT
+2025-02-25 22:55:13,577 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור GPU1USDT
+2025-02-25 22:55:14,091 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור SHIBAIUSDT
+2025-02-25 22:55:14,552 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור POKEMONUSDT
+2025-02-25 22:56:15,138 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור BABYDOGE2USDT
+2025-02-25 22:56:16,163 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור FLOKICEOUSDT
+2025-02-25 22:56:17,162 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור GPU1USDT
+2025-02-25 22:56:17,606 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור SHIBAIUSDT
+2025-02-25 22:56:18,105 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור POKEMONUSDT
+2025-02-25 22:57:18,732 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור BABYDOGE2USDT
+2025-02-25 22:57:19,349 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור FLOKICEOUSDT
+2025-02-25 22:57:19,856 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור GPU1USDT
+2025-02-25 22:57:20,299 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור SHIBAIUSDT
+2025-02-25 22:57:20,780 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור POKEMONUSDT
+2025-02-25 22:58:21,400 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור BABYDOGE2USDT
+2025-02-25 22:58:21,912 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור FLOKICEOUSDT
+2025-02-25 22:58:22,423 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור GPU1USDT
+2025-02-25 22:58:22,938 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור SHIBAIUSDT
+2025-02-25 22:58:23,385 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור POKEMONUSDT
+2025-02-25 22:59:24,785 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור BABYDOGE2USDT
+2025-02-25 22:59:25,911 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור FLOKICEOUSDT
+2025-02-25 22:59:26,353 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור GPU1USDT
+2025-02-25 22:59:26,812 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור SHIBAIUSDT
+2025-02-25 22:59:27,282 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור POKEMONUSDT
+2025-02-25 22:59:27,289 - MEXC-TradingBot - INFO - סריקת מטבעות חדשים (בוצעה אחרי 15 דקות)
+2025-02-25 22:59:27,289 - MEXC-TradingBot - INFO - סימבולים במעקב: BABYDOGE2USDT, FLOKICEOUSDT, GPU1USDT, SHIBAIUSDT, POKEMONUSDT
+2025-02-25 22:59:27,289 - MEXC-TradingBot - INFO - פוזיציות פתוחות: אין
+2025-02-25 23:00:28,605 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור BABYDOGE2USDT
+2025-02-25 23:00:29,730 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור FLOKICEOUSDT
+2025-02-25 23:00:30,856 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור GPU1USDT
+2025-02-25 23:15:55,447 - MEXC-TradingBot - ERROR - שגיאה בשליחת בקשה: ('Connection aborted.', OSError(50, 'Network is down'))
+2025-02-25 23:15:55,449 - MEXC-TradingBot - WARNING - לא ניתן לקבל מספיק נתונים עבור SHIBAIUSDT
+2025-02-25 23:15:55,991 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור POKEMONUSDT
+2025-02-25 23:15:55,998 - MEXC-TradingBot - INFO - סריקת מטבעות חדשים (בוצעה אחרי 16 דקות)
+2025-02-25 23:15:55,998 - MEXC-TradingBot - INFO - סימבולים במעקב: BABYDOGE2USDT, FLOKICEOUSDT, GPU1USDT, SHIBAIUSDT, POKEMONUSDT
+2025-02-25 23:15:55,998 - MEXC-TradingBot - INFO - פוזיציות פתוחות: אין
+2025-02-25 23:16:57,023 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור BABYDOGE2USDT
+2025-02-25 23:16:58,248 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור FLOKICEOUSDT
+2025-02-25 23:16:59,684 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור GPU1USDT
+2025-02-25 23:17:00,502 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור SHIBAIUSDT
+2025-02-25 23:17:10,631 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור POKEMONUSDT
+2025-02-25 23:27:22,467 - MEXC-TradingBot - ERROR - שגיאה בשליחת בקשה: HTTPSConnectionPool(host='api.mexc.com', port=443): Max retries exceeded with url: /api/v3/klines?symbol=BABYDOGE2USDT&interval=1m&limit=60 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x1171332b0>: Failed to resolve 'api.mexc.com' ([Errno 8] nodename nor servname provided, or not known)"))
+2025-02-25 23:27:22,473 - MEXC-TradingBot - WARNING - לא ניתן לקבל מספיק נתונים עבור BABYDOGE2USDT
+2025-02-25 23:27:22,482 - MEXC-TradingBot - ERROR - שגיאה בשליחת בקשה: HTTPSConnectionPool(host='api.mexc.com', port=443): Max retries exceeded with url: /api/v3/klines?symbol=FLOKICEOUSDT&interval=1m&limit=60 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x117133280>: Failed to resolve 'api.mexc.com' ([Errno 8] nodename nor servname provided, or not known)"))
+2025-02-25 23:27:22,483 - MEXC-TradingBot - WARNING - לא ניתן לקבל מספיק נתונים עבור FLOKICEOUSDT
+2025-02-25 23:27:22,490 - MEXC-TradingBot - ERROR - שגיאה בשליחת בקשה: HTTPSConnectionPool(host='api.mexc.com', port=443): Max retries exceeded with url: /api/v3/klines?symbol=GPU1USDT&interval=1m&limit=60 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x1171336a0>: Failed to resolve 'api.mexc.com' ([Errno 8] nodename nor servname provided, or not known)"))
+2025-02-25 23:27:22,491 - MEXC-TradingBot - WARNING - לא ניתן לקבל מספיק נתונים עבור GPU1USDT
+2025-02-25 23:27:22,499 - MEXC-TradingBot - ERROR - שגיאה בשליחת בקשה: HTTPSConnectionPool(host='api.mexc.com', port=443): Max retries exceeded with url: /api/v3/klines?symbol=SHIBAIUSDT&interval=1m&limit=60 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x117735d60>: Failed to resolve 'api.mexc.com' ([Errno 8] nodename nor servname provided, or not known)"))
+2025-02-25 23:27:22,500 - MEXC-TradingBot - WARNING - לא ניתן לקבל מספיק נתונים עבור SHIBAIUSDT
+2025-02-25 23:27:22,509 - MEXC-TradingBot - ERROR - שגיאה בשליחת בקשה: HTTPSConnectionPool(host='api.mexc.com', port=443): Max retries exceeded with url: /api/v3/klines?symbol=POKEMONUSDT&interval=1m&limit=60 (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x11773b2b0>: Failed to resolve 'api.mexc.com' ([Errno 8] nodename nor servname provided, or not known)"))
+2025-02-25 23:27:22,510 - MEXC-TradingBot - WARNING - לא ניתן לקבל מספיק נתונים עבור POKEMONUSDT
+2025-02-25 23:28:51,362 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור BABYDOGE2USDT
+2025-02-25 23:28:51,369 - MEXC-TradingBot - INFO - תנאי כניסה התקיימו עבור BABYDOGE2USDT! RSI=27.27, MACD Hist=0.000000
+2025-02-25 23:28:51,369 - MEXC-TradingBot - INFO - בודק אסטרטגיית מסחר עבור BABYDOGE2USDT
+2025-02-25 23:28:52,483 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור BABYDOGE2USDT
+2025-02-25 23:28:52,948 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור FLOKICEOUSDT
+2025-02-25 23:28:54,113 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור GPU1USDT
+2025-02-25 23:28:54,936 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור SHIBAIUSDT
+2025-02-25 23:28:55,578 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור POKEMONUSDT
+2025-02-26 03:15:40,050 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור BABYDOGE2USDT
+2025-02-26 03:15:40,558 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור FLOKICEOUSDT
+2025-02-26 03:15:40,984 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור GPU1USDT
+2025-02-26 03:15:41,964 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור SHIBAIUSDT
+2025-02-26 03:15:42,391 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור POKEMONUSDT
+2025-02-26 03:15:42,399 - MEXC-TradingBot - INFO - סריקת מטבעות חדשים (בוצעה אחרי 239 דקות)
+2025-02-26 03:15:42,399 - MEXC-TradingBot - INFO - סימבולים במעקב: BABYDOGE2USDT, FLOKICEOUSDT, GPU1USDT, SHIBAIUSDT, POKEMONUSDT
+2025-02-26 03:15:42,399 - MEXC-TradingBot - INFO - פוזיציות פתוחות: אין
+2025-02-26 08:02:27,907 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור BABYDOGE2USDT
+2025-02-26 08:02:28,421 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור FLOKICEOUSDT
+2025-02-26 08:02:29,024 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור GPU1USDT
+2025-02-26 08:02:30,596 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור SHIBAIUSDT
+2025-02-26 08:02:31,107 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור POKEMONUSDT
+2025-02-26 08:02:31,140 - MEXC-TradingBot - INFO - סריקת מטבעות חדשים (בוצעה אחרי 286 דקות)
+2025-02-26 08:02:31,140 - MEXC-TradingBot - INFO - סימבולים במעקב: BABYDOGE2USDT, FLOKICEOUSDT, GPU1USDT, SHIBAIUSDT, POKEMONUSDT
+2025-02-26 08:02:31,141 - MEXC-TradingBot - INFO - פוזיציות פתוחות: אין
+2025-02-26 09:28:21,021 - MEXC-TradingBot - INFO - התקבלו 8 עמודות מה-API עבור BABYDOGE2USDT
+2025-02-26 10:30:52,661 - MEXC-TradingBot - INFO - עוצר את הבוט...

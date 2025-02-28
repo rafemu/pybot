@@ -1,0 +1,12 @@
+{
+    "api_key": "mx0vglHyxTIMWlutTn",
+    "api_secret": "eed4312d95ca45c59ddb743ad3061cb5",
+    "investment": 100.0,
+    "trade_size": 10.0,
+    "stop_loss": 1.5,
+    "take_profit": 2.5,
+    "max_watched": 10,
+    "max_positions": 3,
+    "scan_interval": 5,
+    "test_mode": false
+}

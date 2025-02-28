@@ -1,0 +1,322 @@
+
+<!DOCTYPE html>
+<html dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>בוט מסחר MEXC - לוח בקרה</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            direction: rtl;
+            text-align: right;
+        }
+        .card {
+            margin-bottom: 20px;
+        }
+        .profit {
+            color: green;
+        }
+        .loss {
+            color: red;
+        }
+        .bot-status {
+            font-weight: bold;
+        }
+        .status-running {
+            color: green;
+        }
+        .status-stopped {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="container">
+            <a class="navbar-brand" href="/">בוט מסחר MEXC</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="/">בית</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/positions">פוזיציות</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/watchlist">רשימת מעקב</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/logs">לוגים</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/statistics">סטטיסטיקות</a>
+                    </li><li class="nav-item">
+                        <a class="nav-link" href="/settings">הגדרות</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container mt-4">
+        {% with messages = get_flashed_messages(with_categories=true) %}
+            {% if messages %}
+                {% for category, message in messages %}
+                    <div class="alert alert-{{ category }}">{{ message }}</div>
+                {% endfor %}
+            {% endif %}
+        {% endwith %}
+
+        <div class="row">
+            
+            <div class="col-lg-6">
+                
+                <div class="card">
+                    <div class="card-header bg-primary text-white">
+                        <h5 class="card-title mb-0">סטטוס בוט</h5>
+                    </div>
+                    <div class="card-body">
+                        <div class="row mb-3">
+                            <div class="col-6">
+                                <strong>סטטוס:</strong> 
+                                <span class="bot-status {% if bot_running %}status-running{% else %}status-stopped{% endif %}">
+                                    {% if bot_running %}פעיל{% else %}לא פעיל{% endif %}
+                                </span>
+                            </div>
+                            <div class="col-6">
+                                <strong>זמן פעילות:</strong> {{ uptime }}
+                            </div>
+                        </div>
+                        <div class="row mb-3">
+                            <div class="col-6">
+                                <strong>פוזיציות פתוחות:</strong> {{ open_positions|length }}
+                            </div>
+                            <div class="col-6">
+                                <strong>סה״כ רווח:</strong> 
+                                <span class="{% if total_profit > 0 %}profit{% elif total_profit < 0 %}loss{% endif %}">
+                                    ${{ "%.2f"|format(total_profit) }}
+                                </span>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-6">
+                                <strong>מטבעות במעקב:</strong> {{ watched_symbols|length }}
+                            </div>
+                            <div class="col-6">
+                                <strong>מצב:</strong> {% if settings.test_mode %}מצב בדיקה{% else %}מסחר אמיתי{% endif %}
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-footer">
+                        {% if bot_running %}
+                            <form action="/stop_bot" method="post" class="d-inline">
+                                <button type="submit" class="btn btn-danger">
+                                    <i class="bi bi-stop-circle"></i> עצור בוט
+                                </button>
+                            </form>
+                        {% else %}
+                            <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#startBotModal">
+                                <i class="bi bi-play-circle"></i> הפעל בוט
+                            </button>
+                        {% endif %}
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-6">
+                <div class="card">
+                    <div class="card-header bg-primary text-white">
+                        <h5 class="card-title mb-0">פוזיציות פתוחות</h5>
+                    </div>
+                    <div class="card-body">
+                        {% if open_positions %}
+                            <div class="table-responsive">
+                                <table class="table table-striped table-hover">
+                                    <thead>
+                                        <tr>
+                                            <th>מטבע</th>
+                                            <th>מחיר כניסה</th>
+                                            <th>רווח/הפסד</th>
+                                            <th>פעולות</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        {% for symbol, position in open_positions.items() %}
+                                            {% set profit_pct = ((position.current_price if position.current_price is defined else position.entry_price) - position.entry_price) / position.entry_price * 100 %}
+                                            {% set profit_usd = (position.current_price if position.current_price is defined else position.entry_price - position.entry_price) * position.quantity %}
+                                            <tr>
+                                                <td>{{ symbol }}</td>
+                                                <td>${{ "%.8f"|format(position.entry_price) }}</td>
+                                                <td class="{% if profit_pct > 0 %}profit{% elif profit_pct < 0 %}loss{% endif %}">
+                                                    {{ "%.2f"|format(profit_pct) }}% (${{ "%.2f"|format(profit_usd) }})
+                                                </td>
+                                                <td>
+                                                    <form action="/close_position/{{ symbol }}" method="post" class="d-inline">
+                                                        <button type="submit" class="btn btn-sm btn-outline-danger">סגור</button>
+                                                    </form>
+                                                </td>
+                                            </tr>
+                                        {% endfor %}
+                                    </tbody>
+                                </table>
+                            </div>
+                        {% else %}
+                            <div class="alert alert-info">אין פוזיציות פתוחות כרגע</div>
+                        {% endif %}
+                    </div>
+                    <div class="card-footer">
+                        <a href="/positions" class="btn btn-outline-primary">הצג הכל</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="card">
+                    <div class="card-header bg-primary text-white">
+                        <h5 class="card-title mb-0">מטבעות במעקב</h5>
+                    </div>
+                    <div class="card-body">
+                        {% if watched_symbols %}
+                            <div class="table-responsive">
+                                <table class="table table-striped table-hover">
+                                    <thead>
+                                        <tr>
+                                            <th>מטבע</th>
+                                            <th>פעולות</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        {% for symbol in watched_symbols %}
+                                            <tr>
+                                                <td>{{ symbol }}</td>
+                                                <td>
+                                                    <form action="/remove_symbol/{{ symbol }}" method="post" class="d-inline">
+                                                        <button type="submit" class="btn btn-sm btn-outline-danger">הסר</button>
+                                                    </form>
+                                                </td>
+                                            </tr>
+                                        {% endfor %}
+                                    </tbody>
+                                </table>
+                            </div>
+                        {% else %}
+                            <div class="alert alert-info">אין מטבעות במעקב כרגע</div>
+                        {% endif %}
+                    </div>
+                    <div class="card-footer">
+                        <a href="/watchlist" class="btn btn-outline-primary">הצג הכל</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-6">
+                <div class="card">
+                    <div class="card-header bg-primary text-white">
+                        <h5 class="card-title mb-0">לוגים אחרונים</h5>
+                    </div>
+                    <div class="card-body">
+                        <div style="max-height: 300px; overflow-y: auto;">
+                            {% if logs %}
+                                <div class="list-group">
+                                    {% for log in logs[:10] %}
+                                        <div class="list-group-item list-group-item-action">{{ log }}</div>
+                                    {% endfor %}
+                                </div>
+                            {% else %}
+                                <div class="alert alert-info">אין לוגים כרגע</div>
+                            {% endif %}
+                        </div>
+                    </div>
+                    <div class="card-footer">
+                        <a href="/logs" class="btn btn-outline-primary">הצג הכל</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- מודל הפעלת בוט -->
+    <div class="modal fade" id="startBotModal" tabindex="-1" aria-labelledby="startBotModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="startBotModalLabel">הפעלת בוט</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <form action="/start_bot" method="post">
+                    <div class="modal-body">
+                        <div class="mb-3">
+                            <label for="api_key" class="form-label">API Key</label>
+                            <input type="text" class="form-control" id="api_key" name="api_key" value="{{ settings.api_key }}" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="api_secret" class="form-label">API Secret</label>
+                            <input type="password" class="form-control" id="api_secret" name="api_secret" value="{{ settings.api_secret }}" required>
+                        </div>
+                        <div class="mb-3 form-check">
+                            <input type="checkbox" class="form-check-input" id="test_mode" name="test_mode" {% if settings.test_mode %}checked{% endif %}>
+                            <label class="form-check-label" for="test_mode">מצב בדיקה (ללא מסחר אמיתי)</label>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">ביטול</button>
+                        <button type="submit" class="btn btn-success">הפעל בוט</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        // עדכון נתונים אוטומטי
+        // עדכון נתונים אוטומטי
+function updateData() {
+    fetch('/api/data')
+        .then(response => response.json())
+        .then(data => {
+            console.log("עדכון נתונים:", data);  // לבדיקה
+            
+            // עדכון סטטוס הבוט
+            const botRunningStatus = data.bot_running;
+            const statusElement = document.querySelector('.bot-status');
+            if (statusElement) {
+                statusElement.textContent = botRunningStatus ? 'פעיל' : 'לא פעיל';
+                statusElement.className = 'bot-status ' + (botRunningStatus ? 'status-running' : 'status-stopped');
+            }
+            
+            // עדכון כפתורי הפעלה/עצירה
+            const startBotButton = document.querySelector('button[data-bs-toggle="modal"]');
+            const stopBotForm = document.querySelector('form[action="/stop_bot"]');
+            
+            if (startBotButton && stopBotForm) {
+                if (botRunningStatus) {
+                    startBotButton.style.display = 'none';
+                    stopBotForm.style.display = 'inline';
+                } else {
+                    startBotButton.style.display = 'inline';
+                    stopBotForm.style.display = 'none';
+                }
+            }
+            
+            // עדכון נתונים נוספים
+            document.querySelector('.positions_count_label')?.textContent = data.open_positions.length;
+            // ... עוד עדכונים
+        })
+        .catch(error => console.error('Error fetching data:', error));
+}
+
+// עדכון כל 2 שניות
+setInterval(updateData, 2000);
+    </script>
+</body>
+</html>
+        

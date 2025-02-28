@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>דף דיבאג - בוט מסחר MEXC</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            direction: rtl;
+            text-align: right;
+        }
+        .card {
+            margin-bottom: 20px;
+        }
+        .debug-section {
+            background-color: #f8f9fa;
+            border-radius: 5px;
+            padding: 15px;
+            margin-bottom: 15px;
+        }
+        pre {
+            background-color: #f1f1f1;
+            padding: 10px;
+            border-radius: 5px;
+            direction: ltr;
+            text-align: left;
+            max-height: 300px;
+            overflow-y: auto;
+        }
+        .status-running {
+            color: green;
+            font-weight: bold;
+        }
+        .status-stopped {
+            color: red;
+            font-weight: bold;
+        }
+        .badge {
+            font-size: 85%;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="container">
+            <a class="navbar-brand" href="/">בוט מסחר MEXC</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="/">בית</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/positions">פוזיציות</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/watchlist">רשימת מעקב</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/logs">לוגים</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/statistics">סטטיסטיקות</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/backups">גיבויים</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/settings">הגדרות</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="/debug">דיבאג</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container mt-4">
+        <h1>דף דיבאג</h1>
+        <p class="text-muted">דף זה מציג מידע מפורט על מצב הבוט ומסד הנתונים לצורכי פתרון בעיות.</p>
+        
+        <div class="row mt-4">
+            <!-- סטטוס כללי -->
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-header bg-primary text-white">
+                        <h5 class="card-title mb-0">סטטוס מערכת</h5>
+                    </div>
+                    <div class="card-body">
+                        <div class="debug-section">
+                            <h6>סטטוס בוט</h6>
+                            <ul class="list-group">
+                                <li class="list-group-item d-flex justify-content-between align-items-center">
+                                    סטטוס ריצה
+                                    <span class="{% if debug_info.bot_running %}status-running{% else %}status-stopped{% endif %}">
+                                        {% if debug_info.bot_running %}פעיל{% else %}כבוי{% endif %}
+                                    </span>
+                                </li>
+                                <li class="list-group-item d-flex justify-content-between align-items-center">
+                                    קיום אובייקט בוט
+                                    <span class="badge {% if debug_info.bot_exists %}bg-success{% else %}bg-danger{% endif %}">
+                                        {% if debug_info.bot_exists %}קיים{% else %}לא קיים{% endif %}
+                                    </span>
+                                </li>
+                                <li class="list-group-item d-flex justify-content-between align-items-center">
+                                    סוג הבוט
+                                    <span class="badge bg-info">{{ debug_info.bot_type }}</span>
+                                </li>
+                                <li class="list-group-item d-flex justify-content-between align-items-center">
+                                    תהליך הבוט פעיל
+                                    <span class="badge {% if debug_info.bot_thread_alive %}bg-success{% else %}bg-danger{% endif %}">
+                                        {% if debug_info.bot_thread_alive %}כן{% else %}לא{% endif %}
+                                    </span>
+                                </li>
+                                <li class="list-group-item d-flex justify-content-between align-items-center">
+                                    תהליך עדכון נתונים פעיל
+                                    <span class="badge {% if debug_info.update_thread_alive %}bg-success{% else %}bg-danger{% endif %}">
+                                        {% if debug_info.update_thread_alive %}כן{% else %}לא{% endif %}
+                                    </span>
+                                </li>
+                                <li class="list-group-item d-flex justify-content-between align-items-center">
+                                    זמן התחלה
+                                    <span>{{ debug_info.start_time }}</span>
+                                </li>
+                                <li class="list-group-item d-flex justify-content-between align-items-center">
+                                    עדכון נתונים אחרון
+                                    <span>{{ debug_info.last_data_update }}</span>
+                                </li>
+                                <li class="list-group-item d-flex justify-content-between align-items-center">
+                                    עדכון מחירים אחרון
+                                    <span>{{ debug_info.last_price_update }}</span>
+                                </li>
+                            </ul>
+                        </div>
+                        
+                        <div class="debug-section">
+                            <h6>נתונים מרכזיים</h6>
+                            <ul class="list-group">
+                                <li class="list-group-item d-flex justify-content-between align-items-center">
+                                    מספר פוזיציות פתוחות
+                                    <span class="badge bg-info">{{ debug_info.open_positions_len }}</span>
+                                </li>
+                                <li class="list-group-item d-flex justify-content-between align-items-center">
+                                    מספר סימבולים במעקב
+                                    <span class="badge bg-info">{{ debug_info.watched_symbols_len }}</span>
+                                </li>
+                                <li class="list-group-item d-flex justify-content-between align-items-center">
+                                    רווח/הפסד כולל
+                                    <span class="badge {% if debug_info.total_profit > 0 %}bg-success{% elif debug_info.total_profit < 0 %}bg-danger{% else %}bg-secondary{% endif %}">
+                                        ${{ "%.2f"|format(debug_info.total_profit) }}
+                                    </span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- בדיקת תכונות -->
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-header bg-primary text-white">
+                        <h5 class="card-title mb-0">בדיקת תכונות הבוט</h5>
+                    </div>
+                    <div class="card-body">
+                        <div class="debug-section">
+                            <h6>תכונות הבוט</h6>
+                            <ul class="list-group">
+                                {% for attr, exists in bot_attrs.items() %}
+                                <li class="list-group-item d-flex justify-content-between align-items-center">
+                                    {{ attr }}
+                                    <span class="badge {% if exists %}bg-success{% else %}bg-danger{% endif %}">
+                                        {% if exists %}קיים{% else %}לא קיים{% endif %}
+                                    </span>
+                                </li>
+                                {% endfor %}
+                            </ul>
+                        </div>
+                        
+                        <div class="debug-section">
+                            <h6>מתודות הבוט</h6>
+                            <ul class="list-group">
+                                {% for method, exists in bot_methods.items() %}
+                                <li class="list-group-item d-flex justify-content-between align-items-center">
+                                    {{ method }}()
+                                    <span class="badge {% if exists %}bg-success{% else %}bg-danger{% endif %}">
+                                        {% if exists %}קיים{% else %}לא קיים{% endif %}
+                                    </span>
+                                </li>
+                                {% endfor %}
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="row mt-4">
+            <!-- מידע מסד נתונים -->
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-header bg-primary text-white">
+                        <h5 class="card-title mb-0">מידע מסד נתונים</h5>
+                    </div>
+                    <div class="card-body">
+                        <div class="debug-section">
+                            <h6>נתוני המסד</h6>
+                            <ul class="list-group">
+                                {% if 'error' in db_info %}
+                                <li class="list-group-item list-group-item-danger">
+                                    <strong>שגיאה בגישה למסד נתונים:</strong> {{ db_info.error }}
+                                </li>
+                                {% else %}
+                                <li class="list-group-item d-flex justify-content-between align-items-center">
+                                    מספר עסקאות
+                                    <span class="badge bg-info">{{ db_info.trades_count }}</span>
+                                </li>
+                                <li class="list-group-item d-flex justify-content-between align-items-center">
+                                    מספר סימבולים
+                                    <span class="badge bg-info">{{ db_info.symbols_count }}</span>
+                                </li>
+                                <li class="list-group-item d-flex justify-content-between align-items-center">
+                                    מספר פוזיציות
+                                    <span class="badge bg-info">{{ db_info.positions_count }}</span>
+                                </li>
+                                <li class="list-group-item d-flex justify-content-between align-items-center">
+                                    הגדרות קיימות
+                                    <span class="badge {% if db_info.settings_exists %}bg-success{% else %}bg-danger{% endif %}">
+                                        {% if db_info.settings_exists %}כן{% else %}לא{% endif %}
+                                    </span>
+                                </li>
+                                <li class="list-group-item d-flex justify-content-between align-items-center">
+                                    מספר גיבויים
+                                    <span class="badge bg-info">{{ db_info.backups_count }}</span>
+                                </li>
+                                {% endif %}
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- פעולות תחזוקה -->
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-header bg-primary text-white">
+                        <h5 class="card-title mb-0">פעולות תחזוקה</h5>
+                    </div>
+                    <div class="card-body">
+                        <div class="debug-section">
+                            <h6>פעולות שירות</h6>
+                            <div class="d-grid gap-2">
+                                <button id="refreshDataBtn" class="btn btn-outline-primary">
+                                    <i class="bi bi-arrow-repeat"></i> רענון נתונים
+                                </button>
+                                <button id="createBackupBtn" class="btn btn-outline-success">
+                                    <i class="bi bi-save"></i> יצירת גיבוי
+                                </button>
+                                <button id="clearLogsBtn" class="btn btn-outline-warning">
+                                    <i class="bi bi-trash"></i> ניקוי לוגים
+                                </button>
+                                {% if debug_info.bot_running %}
+                                <button id="stopBotBtn" class="btn btn-outline-danger">
+                                    <i class="bi bi-stop-circle"></i> עצירת הבוט
+                                </button>
+                                {% else %}
+                                <button id="restartBotBtn" class="btn btn-outline-success">
+                                    <i class="bi bi-play-circle"></i> הפעלת הבוט
+                                </button>
+                                {% endif %}
+                            </div>
+                        </div>
+                        
+                        <div class="debug-section">
+                            <h6>מידע מערכת</h6>
+                            <a href="/logs" class="btn btn-outline-secondary w-100 mb-2">
+                                <i class="bi bi-journal-text"></i> צפייה בלוגים
+                            </a>
+                            <a href="/settings" class="btn btn-outline-secondary w-100 mb-2">
+                                <i class="bi bi-gear"></i> הגדרות מערכת
+                            </a>
+                            <a href="/backups" class="btn btn-outline-secondary w-100">
+                                <i class="bi bi-archive"></i> ניהול גיבויים
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- פרטי פוזיציות -->
+        <div class="row mt-4">
+            <div class="col-12">
+                <div class="card">
+                    <div class="card-header bg-primary text-white">
+                        <h5 class="card-title mb-0">פוזיציות פתוחות (פרטים מלאים)</h5>
+                    </div>
+                    <div class="card-body">
+                        {% if debug_info.open_positions %}
+                            <pre>{{ debug_info.open_positions|tojson(indent=2) }}</pre>
+                        {% else %}
+                            <div class="alert alert-info">אין פוזיציות פתוחות</div>
+                        {% endif %}
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- סימבולים במעקב -->
+        <div class="row mt-4">
+            <div class="col-12">
+                <div class="card">
+                    <div class="card-header bg-primary text-white">
+                        <h5 class="card-title mb-0">סימבולים במעקב</h5>
+                    </div>
+                    <div class="card-body">
+                        {% if debug_info.watched_symbols %}
+                            <pre>{{ debug_info.watched_symbols|tojson(indent=2) }}</pre>
+                        {% else %}
+                            <div class="alert alert-info">אין סימבולים במעקב</div>
+                        {% endif %}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        // פעולות תחזוקה
+        document.getElementById('refreshDataBtn').addEventListener('click', function() {
+            fetch('/api/refresh_data', {
+                method: 'POST'
+            })
+            .then(response => response.json())
+            .then(data => {
+                if (data.success) {
+                    alert('הנתונים רועננו בהצלחה!');
+                    location.reload();
+                } else {
+                    alert('שגיאה ברענון נתונים: ' + data.error);
+                }
+            })
+            .catch(error => {
+                alert('שגיאה בתקשורת עם השרת: ' + error);
+            });
+        });
+        
+        document.getElementById('createBackupBtn').addEventListener('click', function() {
+            fetch('/create_backup', {
+                method: 'POST'
+            })
+            .then(() => {
+                alert('גיבוי נוצר בהצלחה!');
+                location.reload();
+            })
+            .catch(error => {
+                alert('שגיאה ביצירת גיבוי: ' + error);
+            });
+        });
+        
+        document.getElementById('clearLogsBtn').addEventListener('click', function() {
+            if (confirm('האם אתה בטוח שברצונך לנקות את הלוגים?')) {
+                fetch('/clear_logs', {
+                    method: 'POST'
+                })
+                .then(() => {
+                    alert('הלוגים נוקו בהצלחה!');
+                    location.reload();
+                })
+                .catch(error => {
+                    alert('שגיאה בניקוי לוגים: ' + error);
+                });
+            }
+        });
+        
+        {% if debug_info.bot_running %}
+        document.getElementById('stopBotBtn').addEventListener('click', function() {
+            if (confirm('האם אתה בטוח שברצונך לעצור את הבוט?')) {
+                fetch('/stop_bot', {
+                    method: 'POST'
+                })
+                .then(() => {
+                    alert('הבוט נעצר בהצלחה!');
+                    location.reload();
+                })
+                .catch(error => {
+                    alert('שגיאה בעצירת הבוט: ' + error);
+                });
+            }
+        });
+        {% else %}
+        document.getElementById('restartBotBtn').addEventListener('click', function() {
+            location.href = '/';
+        });
+        {% endif %}
+    </script>
+</body>
+</html>
